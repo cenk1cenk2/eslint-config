@@ -1,6 +1,6 @@
 {
   "name": "@cenk1cenk2/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint configuration for my taste.",
   "main": "index.js",
   "repository": "https://github.com/cenk1cenk2/eslint-config",
@@ -21,7 +21,6 @@
     ]
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": "^2.22.0",
     "eslint": ">= 6.8.0"
   },
   "dependencies": {
