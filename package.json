@@ -5,5 +5,32 @@
   "main": "index.js",
   "repository": "https://github.com/cenk1cenk2/eslint-config",
   "author": "Cenk Kilic",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --ext .json,.ts,.js --fix ./**",
+    "dev:lint": "lint-staged"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run dev:lint"
+    }
+  },
+  "lint-staged": {
+    "src/*.{ts,js, json}": [
+      "yarn lint"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": ">= 6.8.0",
+    "@typescript-eslint/parser": "^2.22.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8"
+  }
 }
