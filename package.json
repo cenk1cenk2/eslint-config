@@ -1,0 +1,9 @@
+{
+  "name": "@cenk1cenk2/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint configuration for my taste.",
+  "main": "index.js",
+  "repository": "https://github.com/cenk1cenk2/eslint-config",
+  "author": "Cenk Kilic",
+  "license": "MIT"
+}
