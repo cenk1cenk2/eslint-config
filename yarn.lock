@@ -25,6 +25,14 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@cenk1cenk2/eslint-config@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.0.1.tgz#2ade421fd56f9f04a4753d2ca73a680e086255f3"
+  integrity sha512-VUi2IVtsVYiPC/LfMC2RXdMdc+nm9KcoIPk8cN4Ly98WgUmVcPvYTsH33Bc3uqQkoq+jnHIdHYr6PGbJk1Acdg==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^2.22.0"
+    eslint-plugin-import "^2.20.1"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
