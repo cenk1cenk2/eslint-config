@@ -7,7 +7,7 @@
   "author": "Cenk Kilic",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ext .json,.ts,.js --fix ./**",
+    "lint": "eslint --ext .json,.ts,.js --fix ./",
     "dev:lint": "lint-staged"
   },
   "husky": {

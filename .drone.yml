@@ -6,6 +6,12 @@ trigger:
     - tag
 
 steps:
+  - name: test
+    image: node:current-alpine
+    commands:
+      - yarn --frozen-lockfile
+      - yarn lint
+
   - name: publish
     image: node:current-alpine
     commands:
