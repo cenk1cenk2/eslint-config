@@ -10,7 +10,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  'react/jsx-indent': [ 'error', 2 ],
-  'react/jsx-indent-props': [ 'error', 2 ],
-  'react/jsx-curly-newline': [ 'error', 'consistent' ]
+  rules: {
+    'react/jsx-indent': [ 'error', 2 ],
+    'react/jsx-indent-props': [ 'error', 2 ],
+    'react/jsx-curly-newline': [ 'error', 'consistent' ]
+  }
 }
