@@ -25,12 +25,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@cenk1cenk2/eslint-config@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.0.1.tgz#2ade421fd56f9f04a4753d2ca73a680e086255f3"
-  integrity sha512-VUi2IVtsVYiPC/LfMC2RXdMdc+nm9KcoIPk8cN4Ly98WgUmVcPvYTsH33Bc3uqQkoq+jnHIdHYr6PGbJk1Acdg==
+"@cenk1cenk2/eslint-config@*":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.0.3.tgz#9b3ca8c74338454714f1f79fef745c5aac749012"
+  integrity sha512-cpkb8buvAaja+CZio+KURKnC48RmO9hBl/YblSUzNER5dztBWJRj5gm4WG2pZ2QME3ewc2cBeHUX0OTvCFNlPg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.22.0"
+    "@typescript-eslint/parser" "^2.22.0"
     eslint-plugin-import "^2.20.1"
 
 "@samverschueren/stream-to-observable@^0.3.0":
@@ -489,6 +490,11 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+eslint-config-react@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-react/-/eslint-config-react-1.1.7.tgz#a0918d0fc47d0e9bd161a47308021da85d2585b3"
+  integrity sha1-oJGND8R9DpvRYaRzCAIdqF0lhbM=
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.3"
