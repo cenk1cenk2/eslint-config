@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     '@cenk1cenk2/eslint-config/typescript'
   ],
+  parser: '@typescript-eslint/parser',
   plugins: [ 'react' ],
   parserOptions: {
     ecmaFeatures: {
