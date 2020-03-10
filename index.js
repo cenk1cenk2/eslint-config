@@ -10,7 +10,6 @@ module.exports = {
   extends: [
     'eslint:recommended'
   ],
-  ignorePatterns: [ 'node_modules/' ],
   rules: {
     'linebreak-style': [
       'error',
