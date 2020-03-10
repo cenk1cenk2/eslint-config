@@ -93,11 +93,7 @@ module.exports = {
     ],
     'object-curly-spacing': [
       'error',
-      'always',
-      {
-        objectsInArrays: true,
-        arraysInArrays: true
-      }
+      'always'
     ],
     'array-element-newline': [
       'error',
