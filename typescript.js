@@ -20,7 +20,7 @@ module.exports = {
     ],
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': [
-      'off',
+      'warn',
       {
         multiline: {
           delimiter: 'none',
@@ -28,17 +28,28 @@ module.exports = {
         },
         singleline: {
           delimiter: 'semi',
-          requireLast: false
+          requireLast: true
         }
       }
     ],
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+    '@typescript-eslint/brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     '@typescript-eslint/member-ordering': 'warn',
-    '@typescript-eslint/no-explicit-any': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/camelcase': 'warn',
     '@typescript-eslint/no-parameter-properties': 'off',
+    '@typescript-eslint/func-call-spacing': [ 'error', 'never' ],
     '@typescript-eslint/prefer-for-of': 'warn',
     '@typescript-eslint/prefer-function-type': 'error',
+    '@typescript-eslint/no-floating-promises': 'error',
+    '@typescript-eslint/return-await': [ 'error', 'never' ],
+    'space-before-function-paren': 'off',
+    '@typescript-eslint/space-before-function-paren': [ 'error' ],
+    'no-extra-parens': 'off',
+    '@typescript-eslint/no-extra-parens': [ 'error' ],
+    '@typescript-eslint/comma-spacing': [ 'error', { before: false, after: true } ],
+    '@typescript-eslint/indent': [ 'error', 4, { ignoreComments: false } ],
     '@typescript-eslint/quotes': [
       'error',
       'single'

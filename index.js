@@ -54,6 +54,9 @@ module.exports = {
       'error',
       2
     ],
+    'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
+    'comma-spacing': [ 'error', { before: false, after: true } ],
+    'func-call-spacing': [ 'error', 'never' ],
     'max-len': [
       'error',
       {
@@ -86,6 +89,14 @@ module.exports = {
           multiline: true,
           minProperties: 10
         }
+      }
+    ],
+    'object-curly-spacing': [
+      'error',
+      'always',
+      {
+        objectsInArrays: true,
+        arraysInArrays: true
       }
     ],
     'array-element-newline': [
@@ -151,6 +162,7 @@ module.exports = {
       'error',
       'never'
     ],
+    'template-curly-spacing': [ 'error', 'never' ],
     radix: 'error',
     'spaced-comment': 'error',
     'use-isnan': 'error',
