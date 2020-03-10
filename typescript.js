@@ -36,7 +36,7 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-var-requires': 'off',
-    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
     '@typescript-eslint/brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
