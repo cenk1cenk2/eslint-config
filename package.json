@@ -1,6 +1,6 @@
 {
   "name": "@cenk1cenk2/eslint-config",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "Eslint configuration for my taste.",
   "main": "index.js",
   "repository": "https://github.com/cenk1cenk2/eslint-config",
@@ -24,13 +24,13 @@
     "eslint": ">= 6.0.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
-    "@typescript-eslint/parser": "^2.23.0",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-import": "^2.20.1"
   },
   "devDependencies": {
-    "@cenk1cenk2/eslint-config": "0.0.22",
+    "@cenk1cenk2/eslint-config": "*",
     "eslint": "^6.8.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8"
