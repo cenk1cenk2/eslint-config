@@ -1,6 +1,6 @@
 {
   "name": "@cenk1cenk2/eslint-config",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Eslint configuration for my taste.",
   "main": "index.js",
   "repository": "https://github.com/cenk1cenk2/eslint-config",
