@@ -4,6 +4,7 @@ module.exports = {
   ],
   plugins: [ 'react' ],
   parserOptions: {
+    project: './tsconfig.json',
     ecmaFeatures: {
       jsx: true
     },
@@ -33,7 +34,7 @@ module.exports = {
       beforeClosing: 'never'
     } ],
     'react/jsx-closing-tag-location': 'error',
-    'react/jsx-curly-brace-presence': [ 'error', { props: 'never', children: 'never'} ],
+    'react/jsx-curly-brace-presence': [ 'error', { props: 'never', children: 'never' } ],
     'react/jsx-equals-spacing': [ 'error', 'never' ],
     'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
     'react/jsx-props-no-multi-spaces': 'error',
