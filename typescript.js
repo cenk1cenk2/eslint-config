@@ -8,14 +8,14 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   parserOptions: {
-    project: './tsconfig.json',
-    tsconfigRootDir: process.cwd()
+    project: './tsconfig.json'
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/explicit-member-accessibility': [
       'off',
       {
