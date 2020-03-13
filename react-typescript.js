@@ -37,7 +37,6 @@ module.exports = {
     'react/jsx-equals-spacing': [ 'error', 'never' ],
     'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
     'react/jsx-props-no-multi-spaces': 'error',
-    'react/jsx-space-before-closing': [ 'error', 'always' ],
     'react/jsx-wrap-multilines': [ 'error',
       {
         declaration: 'parens-new-line',
