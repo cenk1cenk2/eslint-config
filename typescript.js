@@ -8,7 +8,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   parserOptions: {
-    project: '/tsconfig.json'
+    project: './tsconfig.json',
+    tsconfigRootDir: __dirname
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
