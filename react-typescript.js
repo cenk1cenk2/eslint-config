@@ -14,6 +14,7 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-extra-parens': 'off',
+    '@typescript-eslint/indent': 'off',
     'no-unused-vars': 'off',
     indent: 'off',
     'react/jsx-indent': [ 'error', 2 ],

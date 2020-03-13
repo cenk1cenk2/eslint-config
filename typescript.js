@@ -9,7 +9,7 @@ module.exports = {
   ],
   parserOptions: {
     project: './tsconfig.json',
-    changeProcessCWD: true
+    tsconfigRootDir: __dirname
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
