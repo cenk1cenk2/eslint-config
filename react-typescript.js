@@ -3,13 +3,17 @@ module.exports = {
     '@cenk1cenk2/eslint-config/typescript'
   ],
   plugins: [ 'react' ],
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     },
     ecmaVersion: 2018,
     sourceType: 'module'
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   },
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
