@@ -12,10 +12,11 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
-    'no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'react/jsx-indent': [ 'error', 2 ],
+    '@typescript-eslint/no-extra-parens': 'off',
+    'no-unused-vars': 'off',
     indent: 'off',
+    'react/jsx-indent': [ 'error', 2 ],
     'react/jsx-indent-props': [ 'error', 2 ],
     'react/jsx-curly-newline': [ 'error', 'consistent' ],
     'react/jsx-fragments': [ 'error', 'element' ],

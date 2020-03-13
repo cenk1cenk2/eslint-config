@@ -15,7 +15,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/array-type': 'error',
     '@typescript-eslint/ban-ts-ignore': 'off',
-    '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/explicit-member-accessibility': [
       'off',
       {
