@@ -8,7 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   parserOptions: {
-    project: './tsconfig.json'
+    project:  './tsconfig.json'
   },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
@@ -37,7 +37,9 @@ module.exports = {
     ],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
-    '@typescript-eslint/brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
+    '@typescript-eslint/brace-style': [ 'error', '1tbs', {
+      allowSingleLine: true
+    } ],
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/camelcase': 'warn',
@@ -51,8 +53,13 @@ module.exports = {
     '@typescript-eslint/space-before-function-paren': [ 'error' ],
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': [ 'error' ],
-    '@typescript-eslint/comma-spacing': [ 'error', { before: false, after: true } ],
-    '@typescript-eslint/indent': [ 'error', 2, { ignoreComments: false } ],
+    '@typescript-eslint/comma-spacing': [ 'error', {
+      before: false,
+      after: true
+    } ],
+    '@typescript-eslint/indent': [ 'error', 2, {
+      ignoreComments: false
+    } ],
     '@typescript-eslint/quotes': [
       'error',
       'single'

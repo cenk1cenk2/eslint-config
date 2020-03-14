@@ -2,8 +2,9 @@ module.exports = {
   extends: [
     '@cenk1cenk2/eslint-config/typescript'
   ],
-  plugins: [ 'react' ],
+  plugins: [ 'react', 'react-hooks' ],
   parserOptions: {
+    project:  null,
     ecmaFeatures: {
       jsx: true
     },
@@ -20,6 +21,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-extra-parens': 'off',
     '@typescript-eslint/indent': 'off',
+    '@typescript-eslint/no-floating-promises': 'off',
+    '@typescript-eslint/return-await': 'off',
     'no-unused-vars': 'off',
     indent: 'off',
     'react/jsx-indent': [ 'error', 2 ],
