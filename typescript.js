@@ -7,11 +7,11 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended'
   ],
-  parserOptions: {
-    project: './tsconfig.json',
-    ecmaVersion: 2018,
-    sourceType: 'module'
-  },
+  // parserOptions: {
+  //   project: './tsconfig.json',
+  //   ecmaVersion: 2018,
+  //   sourceType: 'module'
+  // },
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
@@ -49,8 +49,8 @@ module.exports = {
     '@typescript-eslint/func-call-spacing': [ 'error', 'never' ],
     '@typescript-eslint/prefer-for-of': 'warn',
     '@typescript-eslint/prefer-function-type': 'error',
-    '@typescript-eslint/no-floating-promises': 'error',
-    '@typescript-eslint/return-await': [ 'error', 'never' ],
+    // '@typescript-eslint/no-floating-promises': 'error',
+    // '@typescript-eslint/return-await': [ 'error', 'never' ],
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': [ 'error' ],
     'no-extra-parens': 'off',
