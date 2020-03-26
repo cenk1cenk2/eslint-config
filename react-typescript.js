@@ -23,7 +23,7 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/return-await': 'off',
     'no-unused-vars': 'off',
-    indent: [ 'error', 2 ],
+    indent: 'off',
     '@typescript-eslint/indent': [ 'error', 2 ],
     'react/jsx-indent': [ 'error', 2 ],
     'react/jsx-indent-props': [ 'error', 2 ],
