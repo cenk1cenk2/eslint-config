@@ -12,13 +12,13 @@ steps:
         from_secret: GITHUB_EMAIL
       github_token:
         from_secret: GITHUB_TOKEN
-    environment:
-      NPM_USERNAME:
-        from_secret: NPM_USERNAME
-      NPM_PASSWORD:
-        from_secret: NPM_PASSWORD
-      NPM_EMAIL:
-        from_secret: NPM_EMAIL
+    # environment:
+    #   NPM_USERNAME:
+    #     from_secret: NPM_USERNAME
+    #   NPM_PASSWORD:
+    #     from_secret: NPM_PASSWORD
+    #   NPM_EMAIL:
+    #     from_secret: NPM_EMAIL
 
   # - name: publish
   #   image: node:current-alpine
