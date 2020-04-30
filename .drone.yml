@@ -5,10 +5,9 @@ steps:
   - name: semantic-release
     image: entwico/semantic-release
     settings:
-      mode: release
+      mode: predict
       git_user_name: semantic-release
-      git_user_email:
-        from_secret: drone@kilic.dev
+      git_user_email: drone@kilic.dev
       github_token:
         from_secret: GITHUB_TOKEN
     environment:
