@@ -3,6 +3,10 @@
 [![Build Status](https://cd.ev.kilic.dev/api/badges/cenk1cenk2/eslint-config/status.svg)](https://cd.ev.kilic.dev/cenk1cenk2/eslint-config)
 
 <!-- toc -->
+
+undefined [Extend Typescript Import Path Order](#extend-typescript-import-path-order)
+undefined [Rest](#rest)
+
 <!-- tocstop -->
 
 ## Supported Functionality

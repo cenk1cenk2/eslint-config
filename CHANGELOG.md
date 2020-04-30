@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.2...v0.2.3) (2020-04-30)
+
+
+### Bug Fixes
+
+* **drone:** build readme test ([e75b038](https://github.com/cenk1cenk2/eslint-config/commit/e75b038577f579746fef1adf78e96306eb288b03))
+
 ## [0.2.1](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.0...v0.2.1) (2020-04-30)
 
 
