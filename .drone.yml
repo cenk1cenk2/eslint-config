@@ -6,12 +6,6 @@ steps:
     image: entwico/semantic-release
     settings:
       mode: predict
-      git_user_name:
-        from_secret: semantic-release
-      git_user_email:
-        from_secret: GITHUB_EMAIL
-      git_login:
-        from_secret: GITHUB_USERNAME
       github_token:
         from_secret: GITHUB_TOKEN
     environment:
