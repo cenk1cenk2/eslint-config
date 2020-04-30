@@ -15,16 +15,3 @@ steps:
         from_secret: GITHUB_TOKEN
       npm_token:
         from_secret: NPM_TOKEN
-
-  # - name: publish
-  #   image: node:current-alpine
-  #   commands:
-  #     - yarn global add npm-cli-login standard-version
-  #     - npm-cli-login -u $NPM_USERNAME -p $NPM_PASSWORD -e $NPM_EMAIL
-  #     - npm publish --access public
-  #     - npm logout
-  #   trigger:
-  #     branch:
-  #       - master
-  #     event:
-  #       - push
