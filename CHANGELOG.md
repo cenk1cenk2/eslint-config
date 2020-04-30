@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.4...v0.2.5) (2020-04-30)
+
+
+### Bug Fixes
+
+* **readme:** auto update test ([178ece8](https://github.com/cenk1cenk2/eslint-config/commit/178ece859ffe7939decccc21452af89979b3d813))
+
 ## [0.2.4](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.3...v0.2.4) (2020-04-30)
 
 
