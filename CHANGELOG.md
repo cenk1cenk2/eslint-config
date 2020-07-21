@@ -1,3 +1,10 @@
+## [0.2.9](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.8...v0.2.9) (2020-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v3 ([ba195b1](https://github.com/cenk1cenk2/eslint-config/commit/ba195b106d164d428fef32fda8690d958773bfc7))
+
 ## [0.2.8](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.7...v0.2.8) (2020-07-21)
 
 
