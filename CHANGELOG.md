@@ -1,3 +1,10 @@
+## [0.2.7](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.6...v0.2.7) (2020-07-21)
+
+
+### Bug Fixes
+
+* added prettier, made dependencies internal ([7a8cf04](https://github.com/cenk1cenk2/eslint-config/commit/7a8cf049b64bb2f733a885e26eaa7f027550336c))
+
 ## [0.2.6](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.5...v0.2.6) (2020-06-07)
 
 
