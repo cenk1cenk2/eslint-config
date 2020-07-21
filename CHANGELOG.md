@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.5...v0.2.6) (2020-06-07)
+
+
+### Bug Fixes
+
+* **readme-test:** update drone config ([48b49da](https://github.com/cenk1cenk2/eslint-config/commit/48b49da9b5b324d8fa673c6e8ea1074e4dcdeac2))
+
 ## [0.2.5](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.4...v0.2.5) (2020-04-30)
 
 
