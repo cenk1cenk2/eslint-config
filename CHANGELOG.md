@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.10...v0.3.0) (2020-07-21)
+
+
+### Features
+
+* **typescript:** updated rules for version 3.0 ([a1977ee](https://github.com/cenk1cenk2/eslint-config/commit/a1977ee44ae07d9dec19607dfe3cfe59155e62c1))
+
 ## [0.2.10](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.9...v0.2.10) (2020-07-21)
 
 
