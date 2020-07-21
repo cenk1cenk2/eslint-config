@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/cenk1cenk2/eslint-config/compare/v0.3.0...v0.3.1) (2020-07-21)
+
+
+### Bug Fixes
+
+* **typescript:** change underscore to forbid for private methods ([c133bdd](https://github.com/cenk1cenk2/eslint-config/commit/c133bdd69abb4dc016027b09c8f0fbb053e353ee))
+
 # [0.3.0](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.10...v0.3.0) (2020-07-21)
 
 
