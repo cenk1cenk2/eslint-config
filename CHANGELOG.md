@@ -1,3 +1,31 @@
+## [0.2.10](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.9...v0.2.10) (2020-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4 ([4fa3d0e](https://github.com/cenk1cenk2/eslint-config/commit/4fa3d0e39650ede5abf440b93eeeebf3cc9399d4))
+
+## [0.2.9](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.8...v0.2.9) (2020-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v3 ([ba195b1](https://github.com/cenk1cenk2/eslint-config/commit/ba195b106d164d428fef32fda8690d958773bfc7))
+
+## [0.2.8](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.7...v0.2.8) (2020-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update all minor package updates ([e4d79cb](https://github.com/cenk1cenk2/eslint-config/commit/e4d79cb74a90d1d39080f262347e2766a6c00711))
+
+## [0.2.7](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.6...v0.2.7) (2020-07-21)
+
+
+### Bug Fixes
+
+* added prettier, made dependencies internal ([7a8cf04](https://github.com/cenk1cenk2/eslint-config/commit/7a8cf049b64bb2f733a885e26eaa7f027550336c))
+
 ## [0.2.6](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.5...v0.2.6) (2020-06-07)
 
 
