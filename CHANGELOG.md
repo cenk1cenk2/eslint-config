@@ -1,3 +1,10 @@
+## [0.2.10](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.9...v0.2.10) (2020-07-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4 ([4fa3d0e](https://github.com/cenk1cenk2/eslint-config/commit/4fa3d0e39650ede5abf440b93eeeebf3cc9399d4))
+
 ## [0.2.9](https://github.com/cenk1cenk2/eslint-config/compare/v0.2.8...v0.2.9) (2020-07-21)
 
 
