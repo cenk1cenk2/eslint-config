@@ -1,12 +1,6 @@
 module.exports = {
-  plugins: [
-    '@typescript-eslint'
-  ],
-  extends: [
-    '@cenk1cenk2/eslint-config',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended'
-  ],
+  plugins: [ '@typescript-eslint' ],
+  extends: [ '@cenk1cenk2/eslint-config', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended' ],
   // parserOptions: {
   //   project: './tsconfig.json',
   //   ecmaVersion: 2018,
@@ -39,9 +33,13 @@ module.exports = {
     ],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
-    '@typescript-eslint/brace-style': [ 'error', '1tbs', {
-      allowSingleLine: true
-    } ],
+    '@typescript-eslint/brace-style': [
+      'error',
+      '1tbs',
+      {
+        allowSingleLine: true
+      }
+    ],
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/camelcase': 'warn',
@@ -55,26 +53,24 @@ module.exports = {
     '@typescript-eslint/space-before-function-paren': [ 'error' ],
     'no-extra-parens': 'off',
     '@typescript-eslint/no-extra-parens': [ 'error' ],
-    '@typescript-eslint/comma-spacing': [ 'error', {
-      before: false,
-      after: true
-    } ],
-    '@typescript-eslint/indent': [ 'error', 2, {
-      ignoreComments: false
-    } ],
-    '@typescript-eslint/quotes': [
+    '@typescript-eslint/comma-spacing': [
       'error',
-      'single'
+      {
+        before: false,
+        after: true
+      }
     ],
-    '@typescript-eslint/semi': [
+    '@typescript-eslint/indent': [
       'error',
-      'never'
+      2,
+      {
+        ignoreComments: false
+      }
     ],
+    '@typescript-eslint/quotes': [ 'error', 'single' ],
+    '@typescript-eslint/semi': [ 'error', 'never' ],
     '@typescript-eslint/unified-signatures': 'error',
-    'arrow-parens': [
-      'error',
-      'always'
-    ],
+    'arrow-parens': [ 'error', 'always' ],
     '@typescript-eslint/no-use-before-define': 'off'
   }
 }

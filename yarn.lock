@@ -25,15 +25,16 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@cenk1cenk2/eslint-config@0.0.28":
-  version "0.0.28"
-  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.0.28.tgz#4030fdcee8714148b452da1d4b9c399c9f89664a"
-  integrity sha512-VN1JpaAXxQl+TvF2mnM0feD69/MZkjt4zDw4vZkFZVpH1xdUg5eM3dkTszeQGqmd22jE/qycQGevKP17znVT2w==
+"@cenk1cenk2/eslint-config@*":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.2.6.tgz#d22a444ecf8bafe605152628bb728b88440b515b"
+  integrity sha512-eBDlHjYKisjiS4pSfTfMTT84fry3RZnu6R2tPhxp9y5RF2MIX/0/bfWxGzWGYMVIPa6wkaeig6c0L7ZXx1MZBQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.22.0"
     "@typescript-eslint/parser" "^2.22.0"
     eslint-config-react "^1.1.7"
     eslint-plugin-import "^2.20.1"
+    eslint-plugin-react-hooks "^2.5.0"
 
 "@commitlint/execute-rule@^8.3.4":
   version "8.3.4"
@@ -2275,6 +2276,11 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
 progress@^2.0.0:
   version "2.0.3"

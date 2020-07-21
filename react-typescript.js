@@ -1,10 +1,8 @@
 module.exports = {
-  extends: [
-    '@cenk1cenk2/eslint-config/typescript'
-  ],
+  extends: [ '@cenk1cenk2/eslint-config/typescript' ],
   plugins: [ 'react', 'react-hooks' ],
   parserOptions: {
-    project:  null,
+    project: null,
     ecmaFeatures: {
       jsx: true
     },
@@ -30,22 +28,29 @@ module.exports = {
     'react/jsx-curly-newline': [ 'error', 'consistent' ],
     'react/jsx-fragments': [ 'error', 'element' ],
     'react/require-render-return': 'error',
-    'react/self-closing-comp': [ 'error', {
-      component: true,
-      html: true
-    } ],
-    'react/jsx-tag-spacing': [ 'error', {
-      closingSlash: 'never',
-      beforeSelfClosing: 'always',
-      afterOpening: 'never',
-      beforeClosing: 'never'
-    } ],
+    'react/self-closing-comp': [
+      'error',
+      {
+        component: true,
+        html: true
+      }
+    ],
+    'react/jsx-tag-spacing': [
+      'error',
+      {
+        closingSlash: 'never',
+        beforeSelfClosing: 'always',
+        afterOpening: 'never',
+        beforeClosing: 'never'
+      }
+    ],
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-brace-presence': [ 'error', { props: 'never', children: 'never' } ],
     'react/jsx-equals-spacing': [ 'error', 'never' ],
     'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
     'react/jsx-props-no-multi-spaces': 'error',
-    'react/jsx-wrap-multilines': [ 'error',
+    'react/jsx-wrap-multilines': [
+      'error',
       {
         declaration: 'parens-new-line',
         assignment: 'parens-new-line',
@@ -54,7 +59,7 @@ module.exports = {
         condition: 'ignore',
         logical: 'ignore',
         prop: 'ignore'
-      } ]
-
+      }
+    ]
   }
 }

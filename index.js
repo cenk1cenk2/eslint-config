@@ -4,17 +4,11 @@ module.exports = {
     es6: true,
     node: true
   },
-  plugins: [
-    'import'
-  ],
-  extends: [
-    'eslint:recommended'
-  ],
+  plugins: [ 'import' ],
+  extends: [ 'eslint:recommended' ],
   rules: {
-    'linebreak-style': [
-      'error',
-      'unix'
-    ],
+    semi: [ 'error', 'never' ],
+    'linebreak-style': [ 'error', 'unix' ],
     'sort-imports': 'off',
     'import/first': 'error',
     'import/newline-after-import': 'error',
@@ -28,19 +22,10 @@ module.exports = {
             group: 'index'
           }
         ],
-        pathGroupsExcludedImportTypes: [
-          'builtin'
-        ],
+        pathGroupsExcludedImportTypes: [ 'builtin' ],
         groups: [
-          [
-            'builtin',
-            'external'
-          ],
-          [
-            'index',
-            'parent',
-            'sibling'
-          ]
+          [ 'builtin', 'external' ],
+          [ 'index', 'parent', 'sibling' ]
         ],
         'newlines-between': 'always',
         alphabetize: {
@@ -49,10 +34,7 @@ module.exports = {
         }
       }
     ],
-    indent: [
-      'error',
-      2
-    ],
+    indent: [ 'error', 2 ],
     'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     'comma-spacing': [ 'error', { before: false, after: true } ],
     'func-call-spacing': [ 'error', 'never' ],
@@ -90,22 +72,10 @@ module.exports = {
         }
       }
     ],
-    'object-curly-spacing': [
-      'error',
-      'always'
-    ],
-    'array-element-newline': [
-      'error',
-      'consistent'
-    ],
-    'array-bracket-newline': [
-      'error',
-      'consistent'
-    ],
-    'comma-dangle': [
-      'error',
-      'never'
-    ],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'array-element-newline': [ 'error', 'consistent' ],
+    'array-bracket-newline': [ 'error', 'consistent' ],
+    'comma-dangle': [ 'error', 'never' ],
     'array-bracket-spacing': [
       'error',
       'always',
@@ -114,16 +84,10 @@ module.exports = {
         arraysInArrays: true
       }
     ],
-    complexity: [
-      'error',
-      20
-    ],
+    complexity: [ 'error', 20 ],
     'constructor-super': 'error',
     'dot-notation': 'error',
-    eqeqeq: [
-      'error',
-      'smart'
-    ],
+    eqeqeq: [ 'error', 'smart' ],
     quotes: [ 'error', 'single' ],
     'quote-props': [ 'error', 'as-needed' ],
     'guard-for-in': 'error',
@@ -153,10 +117,7 @@ module.exports = {
     'no-unused-expressions': 'warn',
     'no-unused-vars': 'error',
     'object-shorthand': 'error',
-    'one-var': [
-      'error',
-      'never'
-    ],
+    'one-var': [ 'error', 'never' ],
     'template-curly-spacing': [ 'error', 'never' ],
     radix: 'error',
     'spaced-comment': 'error',
