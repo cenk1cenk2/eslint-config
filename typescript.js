@@ -42,7 +42,45 @@ module.exports = {
     ],
     '@typescript-eslint/member-ordering': 'warn',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/camelcase': 'warn',
+    camelcase: 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'default',
+        format: [ 'camelCase' ]
+      },
+
+      {
+        selector: 'variable',
+        format: [ 'camelCase', 'UPPER_CASE' ]
+      },
+      {
+        selector: 'parameter',
+        format: [ 'camelCase' ],
+        leadingUnderscore: 'allow'
+      },
+
+      {
+        selector: 'memberLike',
+        modifiers: [ 'private' ],
+        format: [ 'camelCase' ],
+        leadingUnderscore: 'require'
+      },
+
+      {
+        selector: 'typeLike',
+        format: [ 'PascalCase' ]
+      },
+
+      {
+        selector: 'interface',
+        format: [ 'PascalCase' ],
+        custom: {
+          regex: '^I[A-Z]',
+          match: false
+        }
+      }
+    ],
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/func-call-spacing': [ 'error', 'never' ],
     '@typescript-eslint/prefer-for-of': 'warn',
