@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/cenk1cenk2/eslint-config/compare/v0.3.2...v0.4.0) (2020-07-23)
+
+
+### Features
+
+* **import:** upgraded import mechanism ([95cf0e3](https://github.com/cenk1cenk2/eslint-config/commit/95cf0e39ad74584d0ef878e47e3915e6ba4a1842))
+
 ## [0.3.2](https://github.com/cenk1cenk2/eslint-config/compare/v0.3.1...v0.3.2) (2020-07-21)
 
 
