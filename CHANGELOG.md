@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/cenk1cenk2/eslint-config/compare/v0.3.1...v0.3.2) (2020-07-21)
+
+
+### Bug Fixes
+
+* **typescript:** add exception for enum member to be uppercase ([aa29416](https://github.com/cenk1cenk2/eslint-config/commit/aa29416164172c275583ac70c5dd6103e7f3438b))
+
 ## [0.3.1](https://github.com/cenk1cenk2/eslint-config/compare/v0.3.0...v0.3.1) (2020-07-21)
 
 

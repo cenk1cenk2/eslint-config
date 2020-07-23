@@ -24,9 +24,9 @@
     js-tokens "^4.0.0"
 
 "@cenk1cenk2/eslint-config@*":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.3.0.tgz#2a7740f73a5147896fc820825c2b5dc4de71b4ff"
-  integrity sha512-pjMVOX/2/rB8EsuhsrcqZe2GzlVmt91zSNZxw0PYMJg+Vz5zh5w9YMRnLzzb1aT2IAeCcWjJaW+yawD66SasCw==
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@cenk1cenk2/eslint-config/-/eslint-config-0.3.2.tgz#812b970d41dd12851197e9e180333b5baabf18b5"
+  integrity sha512-JkX6oA3Rr39OhaWw1fkxObxQkv58dh1ogv1VpuVDZLdDalJKNyXhEW8DrdN4jspCVbuHbKWO+biSEbE47+qbww==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.0.0"
     "@typescript-eslint/parser" "^3.0.0"
