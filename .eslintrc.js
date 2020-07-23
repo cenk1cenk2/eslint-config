@@ -1,3 +1,3 @@
 module.exports = {
-  "extends": "@cenk1cenk2"
+  extends: './index'
 }

@@ -36,7 +36,6 @@
     "eslint-plugin-react-hooks": "^4.0.0"
   },
   "devDependencies": {
-    "@cenk1cenk2/eslint-config": "*",
     "cz-conventional-changelog": "3.2.0",
     "eslint": "^7.0.0",
     "husky": "^4.2.3",
