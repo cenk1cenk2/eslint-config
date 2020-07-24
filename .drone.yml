@@ -1,6 +1,12 @@
 kind: pipeline
 name: default
 
+trigger:
+  branch:
+    - master
+  event:
+    - push
+
 steps:
   - name: semantic-release
     image: cenk1cenk2/drone-semantic-release
