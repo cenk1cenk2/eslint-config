@@ -1,3 +1,11 @@
+## [0.4.2](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.1...v0.4.2) (2020-07-27)
+
+
+### Bug Fixes
+
+* typesxript ([2f09ced](https://github.com/cenk1cenk2/eslint-config/commit/2f09ced4bc9d9adb9acca753832a7f88f8acbc98))
+* typesxript ([58e5ca0](https://github.com/cenk1cenk2/eslint-config/commit/58e5ca09a2df32764eab64b903e88c9ef53ed83c))
+
 ## [0.4.1](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.0...v0.4.1) (2020-07-26)
 
 
