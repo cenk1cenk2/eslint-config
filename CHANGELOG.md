@@ -1,3 +1,10 @@
+## [0.4.4](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.3...v0.4.4) (2020-07-27)
+
+
+### Bug Fixes
+
+* **javascript:** added overrides for js ([2adb6a2](https://github.com/cenk1cenk2/eslint-config/commit/2adb6a2ea0a0b2033ff4f468f59bbb2ae2f23b13))
+
 ## [0.4.3](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.2...v0.4.3) (2020-07-27)
 
 
