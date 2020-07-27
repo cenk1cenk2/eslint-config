@@ -1,3 +1,10 @@
+## [0.4.3](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.2...v0.4.3) (2020-07-27)
+
+
+### Bug Fixes
+
+* **javascript:** added parser ([4bd65c0](https://github.com/cenk1cenk2/eslint-config/commit/4bd65c00b098e2f83182c145c0113ef714c5861d))
+
 ## [0.4.2](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.1...v0.4.2) (2020-07-27)
 
 
