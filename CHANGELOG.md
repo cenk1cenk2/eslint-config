@@ -1,3 +1,10 @@
+## [0.4.5](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.4...v0.4.5) (2020-07-27)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates to ^3.7.1 ([5242699](https://github.com/cenk1cenk2/eslint-config/commit/52426990df74bbf9ee1a23903f4923bedf42812a))
+
 ## [0.4.4](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.3...v0.4.4) (2020-07-27)
 
 
