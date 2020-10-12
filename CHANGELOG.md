@@ -1,3 +1,10 @@
+## [0.4.16](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.15...v0.4.16) (2020-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates to ^4.4.1 ([4784024](https://github.com/cenk1cenk2/eslint-config/commit/478402458cd15de189369053f35b43914986d817))
+
 ## [0.4.15](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.14...v0.4.15) (2020-10-06)
 
 
