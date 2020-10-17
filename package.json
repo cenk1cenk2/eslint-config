@@ -7,7 +7,7 @@
   "author": "Cenk Kilic",
   "license": "MIT",
   "scripts": {
-    "lint": "prettier --write ./*.js && eslint --ext .ts,.js,.tsx,.jsx --fix ./",
+    "lint": "prettier --loglevel warn --write ./*.js && eslint --ext .ts,.js,.tsx,.jsx --fix ./",
     "lint:check": "eslint --ext .ts,.js,.tsx,.jsx ./"
   },
   "husky": {
@@ -18,7 +18,7 @@
   },
   "lint-staged": {
     "./*.{ts,js,tsx,jsx}": [
-      "prettier --write",
+      "prettier --loglevel warn --write",
       "eslint --fix"
     ],
     "./*.{json,md}": [

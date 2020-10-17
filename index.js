@@ -4,14 +4,6 @@ module.exports = {
     es6: true,
     node: true
   },
-  overrides: [
-    {
-      files: [ '*.js', '*.jsx' ],
-      parserOptions: {
-        ecmaVersion: 6
-      }
-    }
-  ],
   plugins: [ 'import' ],
   extends: [ 'eslint:recommended' ],
   rules: {
@@ -105,6 +97,7 @@ module.exports = {
     'new-parens': 'error',
     'no-bitwise': 'error',
     'no-caller': 'error',
+    'no-prototype-builtins': 'off',
     'no-console': 'warn',
     'no-debugger': 'warn',
     'no-empty': 'warn',
