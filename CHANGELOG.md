@@ -1,3 +1,10 @@
+## [0.4.17](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.16...v0.4.17) (2020-10-17)
+
+
+### Performance Improvements
+
+* stable version ([d5ee3cc](https://github.com/cenk1cenk2/eslint-config/commit/d5ee3cc825212d77ab21483915381a10f30f2d47))
+
 ## [0.4.16](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.15...v0.4.16) (2020-10-12)
 
 
