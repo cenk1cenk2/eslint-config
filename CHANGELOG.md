@@ -1,3 +1,10 @@
+## [0.4.22](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.21...v0.4.22) (2020-11-07)
+
+
+### Bug Fixes
+
+* add no undef ([2b51aff](https://github.com/cenk1cenk2/eslint-config/commit/2b51aff31617da87f2db7bec85a975e73aaffcb2))
+
 ## [0.4.21](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.20...v0.4.21) (2020-11-07)
 
 
