@@ -1,3 +1,10 @@
+## [0.4.21](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.20...v0.4.21) (2020-11-07)
+
+
+### Bug Fixes
+
+* add tsx to react normal ([eecec86](https://github.com/cenk1cenk2/eslint-config/commit/eecec8654787e78a46a002a713ff70e453bdfb4e))
+
 ## [0.4.20](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.19...v0.4.20) (2020-11-02)
 
 
