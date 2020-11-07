@@ -19,6 +19,7 @@ module.exports = {
       },
       rules: {
         'no-unused-vars': 'off',
+        'no-undef': 'off',
         indent: 'off',
         'react/jsx-indent': [ 'error', 2 ],
         'react/jsx-indent-props': [ 'error', 2 ],
