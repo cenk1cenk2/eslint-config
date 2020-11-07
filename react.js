@@ -2,7 +2,7 @@ module.exports = {
   extends: [ './index' ],
   overrides: [
     {
-      files: [ '*.jsx' ],
+      files: [ '*.jsx', '*.tsx' ],
       plugins: [ 'react', 'react-hooks' ],
       parserOptions: {
         project: null,
