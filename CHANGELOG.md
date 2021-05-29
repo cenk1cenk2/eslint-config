@@ -1,3 +1,10 @@
+## [0.4.39](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.38...v0.4.39) (2021-05-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ^2.23.4 ([ca89390](https://github.com/cenk1cenk2/eslint-config/commit/ca89390fdfcd149f086f2efa728e2ad73e189f57))
+
 ## [0.4.38](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.37...v0.4.38) (2021-05-23)
 
 
