@@ -1,3 +1,11 @@
+## [0.4.41](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.40...v0.4.41) (2021-07-11)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([8534f3b](https://github.com/cenk1cenk2/eslint-config/commit/8534f3bad68506a82729f1430429b4a171238f23))
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([4b5dcf1](https://github.com/cenk1cenk2/eslint-config/commit/4b5dcf1388e0f919f7ae804f69bbdb5ab3953ede))
+
 ## [0.4.40](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.39...v0.4.40) (2021-06-20)
 
 
