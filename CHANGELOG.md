@@ -1,3 +1,12 @@
+## [0.4.45](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.44...v0.4.45) (2021-08-26)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) to ^4.29.1 ([cd90079](https://github.com/cenk1cenk2/eslint-config/commit/cd900796bd7b7d79fc881dfc30215e0112d0a0f9))
+* **deps:** update dependency eslint-plugin-import to ^2.24.1 ([5ed6ade](https://github.com/cenk1cenk2/eslint-config/commit/5ed6ade5f889c602a9b9bf567363064e6d693f12))
+* **deps:** update dependency eslint-plugin-import to ^2.24.2 ([4e823c3](https://github.com/cenk1cenk2/eslint-config/commit/4e823c363ba89db7a4518741d3caa47e6294db24))
+
 ## [0.4.44](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.43...v0.4.44) (2021-08-08)
 
 
