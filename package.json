@@ -29,8 +29,8 @@
     "eslint": ">= 7.5.0"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-react-hooks": "^4.2.0"
@@ -38,7 +38,7 @@
   "devDependencies": {
     "@cenk1cenk2/cz-cc": "^1.4.3",
     "eslint": "^7.32.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2"
   },
