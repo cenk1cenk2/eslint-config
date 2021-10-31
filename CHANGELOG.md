@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.0...v1.0.1) (2021-10-31)
+
+
+### Bug Fixes
+
+* configuration for vue typescript ([feebdf4](https://github.com/cenk1cenk2/eslint-config/commit/feebdf4e4fdc816894cfa3e9263967c00f40c218))
+
 # [1.0.0](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.50...v1.0.0) (2021-10-31)
 
 
