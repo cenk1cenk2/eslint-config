@@ -4,6 +4,11 @@ module.exports = {
     es6: true,
     node: true
   },
+  parserOptions: {
+    createDefaultProgram: true,
+    ecmaVersion: 'latest',
+    sourceType: 'module'
+  },
   plugins: [ 'import' ],
   extends: [ 'eslint:recommended' ],
   rules: {
