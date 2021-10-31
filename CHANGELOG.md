@@ -1,3 +1,20 @@
+# [1.0.0](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.50...v1.0.0) (2021-10-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ^2.25.2 ([6968a65](https://github.com/cenk1cenk2/eslint-config/commit/6968a6573c63d7c1ad982c9a668aab17b9f28389))
+
+
+### Performance Improvements
+
+* update breakign versions ([50cefba](https://github.com/cenk1cenk2/eslint-config/commit/50cefbab8134dc9dfa84ee97cf4c057ffab9aeab))
+
+
+### BREAKING CHANGES
+
+* breaking changes for the eslint 8 and add vue stuff
+
 ## [0.4.50](https://github.com/cenk1cenk2/eslint-config/compare/v0.4.49...v0.4.50) (2021-10-10)
 
 
