@@ -1,3 +1,6 @@
 .releaserc*
 .vscode/*
 renovate.json
+.eslintrc.js
+.eslintignore
+yarn.lock
