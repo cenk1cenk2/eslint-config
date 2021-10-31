@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.4...v1.0.5) (2021-10-31)
+
+
+### Bug Fixes
+
+* update array brackets ([ef320b6](https://github.com/cenk1cenk2/eslint-config/commit/ef320b64c4bdcf21287ea7b3cc98b63a78d0d1dc))
+
 ## [1.0.4](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.3...v1.0.4) (2021-10-31)
 
 
