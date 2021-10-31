@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.2...v1.0.3) (2021-10-31)
+
+
+### Bug Fixes
+
+* upgrade aprser ([b1b0b67](https://github.com/cenk1cenk2/eslint-config/commit/b1b0b67d0222b0ab11c4999fe721707de235a615))
+
 ## [1.0.2](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.1...v1.0.2) (2021-10-31)
 
 
