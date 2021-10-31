@@ -128,6 +128,7 @@ module.exports = {
     radix: 'error',
     'spaced-comment': 'error',
     'use-isnan': 'error',
-    'valid-typeof': 'warn'
+    'valid-typeof': 'warn',
+    'arrow-parens': [ 'error', 'always' ]
   }
 }

@@ -127,7 +127,6 @@ module.exports = {
         '@typescript-eslint/quotes': [ 'error', 'single' ],
         '@typescript-eslint/semi': [ 'error', 'never' ],
         '@typescript-eslint/unified-signatures': 'error',
-        'arrow-parens': [ 'error', 'always' ],
         '@typescript-eslint/no-use-before-define': 'off'
       }
     }
