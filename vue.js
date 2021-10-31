@@ -3,10 +3,6 @@ module.exports = {
   overrides: [
     {
       files: [ '*.vue' ],
-      parserOptions: {
-        parser: 'babel-eslint',
-        sourceType: 'module'
-      },
       extends: [ '@nuxtjs' ],
       rules: {
         'vue/singleline-html-element-content-newline': 0,
