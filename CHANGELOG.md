@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.3...v1.0.4) (2021-10-31)
+
+
+### Bug Fixes
+
+* parans ([919d766](https://github.com/cenk1cenk2/eslint-config/commit/919d766c49bef4aa7d5b9b71afff7880df25a2f6))
+
 ## [1.0.3](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.2...v1.0.3) (2021-10-31)
 
 
