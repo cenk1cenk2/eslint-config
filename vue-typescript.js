@@ -7,7 +7,7 @@ module.exports = {
         parser: 'babel-eslint',
         sourceType: 'module'
       },
-      extends: [ './index' ],
+      extends: [ './index', '@nuxtjs/eslint-config-typescript/index' ],
       rules: {}
     }
   ]
