@@ -78,9 +78,9 @@ module.exports = {
       }
     ],
     'object-curly-spacing': [ 'error', 'always' ],
+    'comma-dangle': [ 'error', 'never' ],
     'array-element-newline': [ 'error', 'consistent' ],
     'array-bracket-newline': [ 'error', 'consistent' ],
-    'comma-dangle': [ 'error', 'never' ],
     'array-bracket-spacing': [
       'error',
       'always',
