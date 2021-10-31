@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.1...v1.0.2) (2021-10-31)
+
+
+### Bug Fixes
+
+* upgrade vue config ([77665c0](https://github.com/cenk1cenk2/eslint-config/commit/77665c017e1e1b4f09d6da32a6756df65226ab8c))
+
 ## [1.0.1](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.0...v1.0.1) (2021-10-31)
 
 
