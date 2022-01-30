@@ -10,36 +10,11 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: [ 'import' ],
-  extends: [ 'eslint:recommended' ],
+  extends: [ 'eslint:recommended', './import' ],
   rules: {
     semi: [ 'error', 'never' ],
     'linebreak-style': [ 'error', 'unix' ],
     'sort-imports': 'off',
-    'import/first': 'error',
-    'import/newline-after-import': 'error',
-    'import/no-duplicates': 'error',
-    'import/order': [
-      'error',
-      {
-        pathGroups: [
-          {
-            pattern: '@src/**',
-            group: 'index'
-          }
-        ],
-        pathGroupsExcludedImportTypes: [ 'builtin' ],
-        groups: [
-          [ 'builtin', 'external' ],
-          [ 'index', 'parent', 'sibling' ]
-        ],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true
-        }
-      }
-    ],
     indent: [ 'error', 2 ],
     'brace-style': [ 'error', '1tbs', { allowSingleLine: true } ],
     'comma-spacing': [ 'error', { before: false, after: true } ],
@@ -130,6 +105,26 @@ module.exports = {
     'spaced-comment': 'error',
     'use-isnan': 'error',
     'valid-typeof': 'warn',
-    'arrow-parens': [ 'error', 'always' ]
+    'arrow-parens': [ 'error', 'always' ],
+    'keyword-spacing': 'error',
+    'lines-between-class-members': 'error',
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return'
+      },
+      {
+        blankLine: 'always',
+        prev: [ 'const', 'let', 'var' ],
+        next: '*'
+      },
+      {
+        blankLine: 'always',
+        prev: [ 'case', 'default' ],
+        next: '*'
+      }
+    ]
   }
 }

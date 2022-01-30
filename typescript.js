@@ -235,7 +235,8 @@ module.exports = {
           }
         ],
         '@typescript-eslint/no-parameter-properties': 'off',
-        '@typescript-eslint/func-call-spacing': [ 'error', 'never' ],
+        'func-call-spacing': 'off',
+        '@typescript-eslint/func-call-spacing': [ 'error' ],
         '@typescript-eslint/prefer-for-of': 'warn',
         '@typescript-eslint/prefer-function-type': 'error',
         'space-before-function-paren': 'off',
@@ -283,7 +284,41 @@ module.exports = {
           }
         ],
         '@typescript-eslint/no-inferrable-types': 'error',
-        '@typescript-eslint/no-misused-new': 'error'
+        '@typescript-eslint/no-misused-new': 'error',
+        '@typescript-eslint/prefer-enum-initializers': 'error',
+        'dot-notation': 'off',
+        '@typescript-eslint/dot-notation': [ 'error' ],
+        'keyword-spacing': 'off',
+        '@typescript-eslint/keyword-spacing': [ 'error' ],
+        'lines-between-class-members': 'off',
+        '@typescript-eslint/lines-between-class-members': [ 'error' ],
+        'no-throw-literal': 'off',
+        '@typescript-eslint/no-throw-literal': [ 'error' ],
+        'padding-line-between-statements': 'off',
+        '@typescript-eslint/padding-line-between-statements': [
+          'error',
+          {
+            blankLine: 'always',
+            prev: '*',
+            next: 'return'
+          },
+          {
+            blankLine: 'always',
+            prev: [ 'const', 'let', 'var' ],
+            next: '*'
+          },
+          {
+            blankLine: 'always',
+            prev: [ 'case', 'default' ],
+            next: '*'
+          },
+          {
+            blankLine: 'always',
+            prev: '*',
+            next: [ 'interface', 'type' ]
+          }
+        ],
+        '@typescript-eslint/prefer-reduce-type-parameter': 'error'
       }
     }
   ]
