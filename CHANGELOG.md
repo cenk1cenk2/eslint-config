@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.1...v2.2.2) (2022-01-30)
+
+
+### Bug Fixes
+
+* move dotnotation to dynamic ([9947c13](https://github.com/cenk1cenk2/eslint-config/commit/9947c13c493b85d5043cc45dfdfa510cb717eeee))
+
 ## [2.2.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.0...v2.2.1) (2022-01-30)
 
 
