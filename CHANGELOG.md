@@ -6,6 +6,30 @@
 * update rule ([c76ea37](https://github.com/cenk1cenk2/eslint-config/commit/c76ea37ed3a4ea2a52f353619f59424b976836b3))
 
 
+### Features
+
+* force update ([549b05c](https://github.com/cenk1cenk2/eslint-config/commit/549b05c586884ebf1689cf59592f3da54ec59bf4))
+
+
+### Performance Improvements
+
+* add new rules ([59c4714](https://github.com/cenk1cenk2/eslint-config/commit/59c47148c074652f6edb401af3c3df69d963cc9c))
+* change lots of options ([797a915](https://github.com/cenk1cenk2/eslint-config/commit/797a915576e982ac4bc3a858a196ddcd45d343f9))
+
+
+### BREAKING CHANGES
+
+* should introduce some breaking changes for many projects
+* may not work with older repositories
+
+# [2.0.0](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.11...v2.0.0) (2022-01-30)
+
+
+### Bug Fixes
+
+* update rule ([c76ea37](https://github.com/cenk1cenk2/eslint-config/commit/c76ea37ed3a4ea2a52f353619f59424b976836b3))
+
+
 ### Performance Improvements
 
 * add new rules ([59c4714](https://github.com/cenk1cenk2/eslint-config/commit/59c47148c074652f6edb401af3c3df69d963cc9c))
