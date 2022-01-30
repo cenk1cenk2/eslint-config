@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.2...v2.2.3) (2022-01-30)
+
+
+### Bug Fixes
+
+* move to dynamic ([84491e0](https://github.com/cenk1cenk2/eslint-config/commit/84491e0376487ed9730772d6cfdeceb5f3b5e210))
+
 ## [2.2.2](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.1...v2.2.2) (2022-01-30)
 
 
