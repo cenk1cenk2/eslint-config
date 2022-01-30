@@ -19,7 +19,7 @@
 - Next
 - Nuxt
 
-## Extend Typescript Import Path Order
+## Rules
 
 ```javascript
 module.exports = {
