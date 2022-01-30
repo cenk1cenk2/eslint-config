@@ -286,8 +286,6 @@ module.exports = {
         '@typescript-eslint/no-inferrable-types': 'error',
         '@typescript-eslint/no-misused-new': 'error',
         '@typescript-eslint/prefer-enum-initializers': 'error',
-        'dot-notation': 'off',
-        '@typescript-eslint/dot-notation': [ 'error' ],
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': [ 'error' ],
         'lines-between-class-members': 'off',

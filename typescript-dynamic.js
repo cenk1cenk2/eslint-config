@@ -19,7 +19,9 @@ module.exports = {
             prefer: 'type-imports',
             disallowTypeAnnotations: true
           }
-        ]
+        ],
+        'dot-notation': 'off',
+        '@typescript-eslint/dot-notation': [ 'error' ]
       }
     }
   ]
