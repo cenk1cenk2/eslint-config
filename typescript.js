@@ -290,8 +290,6 @@ module.exports = {
         '@typescript-eslint/keyword-spacing': [ 'error' ],
         'lines-between-class-members': 'off',
         '@typescript-eslint/lines-between-class-members': [ 'error' ],
-        'no-throw-literal': 'off',
-        '@typescript-eslint/no-throw-literal': [ 'error' ],
         'padding-line-between-statements': 'off',
         '@typescript-eslint/padding-line-between-statements': [
           'error',

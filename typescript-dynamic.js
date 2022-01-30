@@ -21,7 +21,9 @@ module.exports = {
           }
         ],
         'dot-notation': 'off',
-        '@typescript-eslint/dot-notation': [ 'error' ]
+        '@typescript-eslint/dot-notation': [ 'error' ],
+        'no-throw-literal': 'off',
+        '@typescript-eslint/no-throw-literal': [ 'error' ]
       }
     }
   ]
