@@ -4,47 +4,25 @@
 
 <!-- toc -->
 
+- [Supported Functionality](#supported-functionality)
 - [Extend Typescript Import Path Order](#extend-typescript-import-path-order)
-- [moer headers](#moer-headers)
-- [for test](#for-test)
 
 <!-- tocstop -->
 
 ## Supported Functionality
 
-```
-default -> javascript
-react-typescript
-typescript
-```
+- JavaScript
+- TypeScript
+- Imports
+- Vue
+- React
+- Next
+- Nuxt
 
 ## Extend Typescript Import Path Order
 
 ```javascript
 module.exports = {
-  extends: ['@cenk1cenk2/eslint-config/typescript'],
-  rules: {
-    'import/order': [
-      'error',
-      {
-        pathGroups: [
-          {
-            pattern: '@root/**',
-            group: 'parent'
-          }
-        ],
-        pathGroupsExcludedImportTypes: ['builtin'],
-        groups: [
-          ['builtin', 'external'],
-          ['index', 'parent', 'sibling']
-        ],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true
-        }
-      }
-    ]
-  }
+  extends: ['@cenk1cenk2/eslint-config']
 }
 ```
