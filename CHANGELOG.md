@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.3...v2.2.4) (2022-01-30)
+
+
+### Bug Fixes
+
+* finalize configuration ([7e2151b](https://github.com/cenk1cenk2/eslint-config/commit/7e2151b17b9135257cc642401d0201b71e598023))
+
 ## [2.2.3](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.2...v2.2.3) (2022-01-30)
 
 
