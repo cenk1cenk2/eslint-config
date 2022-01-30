@@ -12,7 +12,14 @@ module.exports = {
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/return-await': [ 'error', 'never' ],
         '@typescript-eslint/await-thenable': 'error',
-        '@typescript-eslint/consistent-type-exports': [ 'error', { fixMixedExportsWithInlineTypeSpecifier: false } ]
+        '@typescript-eslint/consistent-type-exports': [ 'error', { fixMixedExportsWithInlineTypeSpecifier: false } ],
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          {
+            prefer: 'type-imports',
+            disallowTypeAnnotations: true
+          }
+        ]
       }
     }
   ]
