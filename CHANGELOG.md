@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.1.0...v2.2.0) (2022-01-30)
+
+
+### Features
+
+* force publish ([7db1d96](https://github.com/cenk1cenk2/eslint-config/commit/7db1d96a3c920f70a3c3add3316f58f95cce225a))
+
 # [2.0.0](https://github.com/cenk1cenk2/eslint-config/compare/v1.0.11...v2.0.0) (2022-01-30)
 
 ### Bug Fixes
