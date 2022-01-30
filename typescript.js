@@ -261,7 +261,7 @@ module.exports = {
         '@typescript-eslint/semi': [ 'error', 'never' ],
         '@typescript-eslint/unified-signatures': 'error',
         '@typescript-eslint/no-use-before-define': 'off',
-        '@typescript-eslint/array-type': [ 'error', 'array' ],
+        '@typescript-eslint/array-type': [ 'error', { default: 'array' } ],
         '@typescript-eslint/consistent-indexed-object-style': [ 'error', 'record' ],
         '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow-as-parameter' } ],
         '@typescript-eslint/consistent-type-definitions': [ 'error', 'interface' ],
