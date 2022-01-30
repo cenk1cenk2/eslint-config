@@ -1,6 +1,10 @@
+/** @type {import("prettier").Config} */
 module.exports = {
   printWidth: 179,
   tabWidth: 2,
+  useTabs: false,
+  quoteProps: 'as-needed',
+  vueIndentScriptAndStyle: true,
   semi: false,
   singleQuote: true,
   trailingComma: 'none',
