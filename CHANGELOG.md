@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.0...v2.2.1) (2022-01-30)
+
+
+### Bug Fixes
+
+* issue with typescript rule ([bbcade0](https://github.com/cenk1cenk2/eslint-config/commit/bbcade03a7772bee5b4edb0326ccc1541a485d44))
+
 # [2.2.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.1.0...v2.2.0) (2022-01-30)
 
 
