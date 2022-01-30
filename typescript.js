@@ -26,9 +26,16 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/ban-ts-ignore': 'off',
         '@typescript-eslint/explicit-member-accessibility': [
-          'off',
+          'error',
           {
-            accessibility: 'explicit'
+            accessibility: 'explicit',
+            overrides: {
+              accessors: 'off',
+              constructors: 'no-public',
+              methods: 'explicit',
+              properties: 'off',
+              parameterProperties: 'off'
+            }
           }
         ],
         '@typescript-eslint/interface-name-prefix': 'off',
@@ -41,7 +48,7 @@ module.exports = {
             },
             singleline: {
               delimiter: 'comma',
-              requireLast: true
+              requireLast: false
             }
           }
         ],
@@ -97,60 +104,60 @@ module.exports = {
               'constructor',
 
               // Getters
-              'public-static-get',
-              'protected-static-get',
-              'private-static-get',
+              // 'public-static-get',
+              // 'protected-static-get',
+              // 'private-static-get',
+              //
+              // 'public-instance-get',
+              // 'public-decorated-get',
+              // 'protected-instance-get',
+              // 'protected-decorated-get',
+              // 'private-instance-get',
+              // 'private-decorated-get',
+              //
+              // 'public-abstract-get',
+              // 'protected-abstract-get',
+              // 'private-abstract-get',
+              //
+              // 'public-get',
+              // 'protected-get',
+              // 'private-get',
+              //
+              // 'static-get',
+              // 'instance-get',
+              // 'abstract-get',
+              //
+              // 'decorated-get',
 
-              'public-instance-get',
-              'public-decorated-get',
-              'protected-instance-get',
-              'protected-decorated-get',
-              'private-instance-get',
-              'private-decorated-get',
-
-              'public-abstract-get',
-              'protected-abstract-get',
-              'private-abstract-get',
-
-              'public-get',
-              'protected-get',
-              'private-get',
-
-              'static-get',
-              'instance-get',
-              'abstract-get',
-
-              'decorated-get',
-
-              'get',
+              // 'get',
 
               // Setters
-              'public-static-set',
-              'protected-static-set',
-              'private-static-set',
+              // 'public-static-set',
+              // 'protected-static-set',
+              // 'private-static-set',
+              //
+              // 'public-instance-set',
+              // 'public-decorated-set',
+              // 'protected-instance-set',
+              // 'protected-decorated-set',
+              // 'private-instance-set',
+              // 'private-decorated-set',
+              //
+              // 'public-abstract-set',
+              // 'protected-abstract-set',
+              // 'private-abstract-set',
+              //
+              // 'public-set',
+              // 'protected-set',
+              // 'private-set',
+              //
+              // 'static-set',
+              // 'instance-set',
+              // 'abstract-set',
+              //
+              // 'decorated-set',
 
-              'public-instance-set',
-              'public-decorated-set',
-              'protected-instance-set',
-              'protected-decorated-set',
-              'private-instance-set',
-              'private-decorated-set',
-
-              'public-abstract-set',
-              'protected-abstract-set',
-              'private-abstract-set',
-
-              'public-set',
-              'protected-set',
-              'private-set',
-
-              'static-set',
-              'instance-set',
-              'abstract-set',
-
-              'decorated-set',
-
-              'set',
+              // 'set',
 
               // Methods
               'public-static-method',
@@ -232,6 +239,13 @@ module.exports = {
           {
             selector: 'typeLike',
             format: [ 'PascalCase' ]
+          },
+
+          {
+            selector: 'parameter',
+            format: [ 'camelCase', 'PascalCase' ],
+            modifiers: [ 'unused' ],
+            leadingUnderscore: 'require'
           }
         ],
         '@typescript-eslint/no-parameter-properties': 'off',
@@ -263,9 +277,15 @@ module.exports = {
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/array-type': [ 'error', { default: 'array' } ],
         '@typescript-eslint/consistent-indexed-object-style': [ 'error', 'record' ],
-        '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow-as-parameter' } ],
+        '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ],
         '@typescript-eslint/consistent-type-definitions': [ 'error', 'interface' ],
-        '@typescript-eslint/consistent-type-imports': [ 'error', { prefer: 'type-imports' } ],
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          {
+            prefer: 'type-imports',
+            disallowTypeAnnotations: true
+          }
+        ],
         '@typescript-eslint/method-signature-style': [ 'error', 'property' ],
         '@typescript-eslint/no-empty-interface': [
           'error',
@@ -289,7 +309,7 @@ module.exports = {
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': [ 'error' ],
         'lines-between-class-members': 'off',
-        '@typescript-eslint/lines-between-class-members': [ 'error' ],
+        '@typescript-eslint/lines-between-class-members': [ 'off' ],
         'padding-line-between-statements': 'off',
         '@typescript-eslint/padding-line-between-statements': [
           'error',
@@ -304,6 +324,11 @@ module.exports = {
             next: '*'
           },
           {
+            blankLine: 'any',
+            prev: [ 'const', 'let', 'var' ],
+            next: [ 'const', 'let', 'var' ]
+          },
+          {
             blankLine: 'always',
             prev: [ 'case', 'default' ],
             next: '*'
@@ -312,9 +337,13 @@ module.exports = {
             blankLine: 'always',
             prev: '*',
             next: [ 'interface', 'type' ]
+          },
+          {
+            blankLine: 'always',
+            prev: '*',
+            next: [ 'function', 'if', 'try', 'break', 'class', 'for', 'while', 'do' ]
           }
-        ],
-        '@typescript-eslint/prefer-reduce-type-parameter': 'error'
+        ]
       }
     }
   ]

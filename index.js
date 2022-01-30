@@ -107,7 +107,7 @@ module.exports = {
     'valid-typeof': 'warn',
     'arrow-parens': [ 'error', 'always' ],
     'keyword-spacing': 'error',
-    'lines-between-class-members': 'error',
+    'lines-between-class-members': 'off',
     'padding-line-between-statements': [
       'error',
       {
@@ -121,9 +121,19 @@ module.exports = {
         next: '*'
       },
       {
+        blankLine: 'any',
+        prev: [ 'const', 'let', 'var' ],
+        next: [ 'const', 'let', 'var' ]
+      },
+      {
         blankLine: 'always',
         prev: [ 'case', 'default' ],
         next: '*'
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: [ 'function', 'if', 'try', 'break', 'class', 'for', 'while', 'do' ]
       }
     ]
   }
