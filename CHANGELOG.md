@@ -1,3 +1,10 @@
+## [2.3.2](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.1...v2.3.2) (2022-01-31)
+
+
+### Bug Fixes
+
+* move to typed rules ([40b224a](https://github.com/cenk1cenk2/eslint-config/commit/40b224a4cfc710c3e2429be068cc618c96fc62e3))
+
 ## [2.3.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.0...v2.3.1) (2022-01-31)
 
 
