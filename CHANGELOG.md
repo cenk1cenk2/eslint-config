@@ -1,3 +1,10 @@
+## [2.3.4](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.3...v2.3.4) (2022-01-31)
+
+
+### Bug Fixes
+
+* update rule ([63addc7](https://github.com/cenk1cenk2/eslint-config/commit/63addc71495f563d50748aacb4f0dac229b4e902))
+
 ## [2.3.3](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.2...v2.3.3) (2022-01-31)
 
 
