@@ -213,7 +213,14 @@ module.exports = {
           {
             selector: 'parameter',
             format: [ 'camelCase', 'PascalCase' ],
-            leadingUnderscore: 'allow'
+            modifiers: [ 'unused' ],
+            leadingUnderscore: 'require'
+          },
+
+          {
+            selector: 'parameter',
+            format: [ 'camelCase', 'PascalCase' ],
+            leadingUnderscore: 'forbid'
           },
 
           {
@@ -236,13 +243,6 @@ module.exports = {
           {
             selector: 'typeLike',
             format: [ 'PascalCase' ]
-          },
-
-          {
-            selector: 'parameter',
-            format: [ 'camelCase', 'PascalCase' ],
-            modifiers: [ 'unused' ],
-            leadingUnderscore: 'require'
           }
         ],
         '@typescript-eslint/no-parameter-properties': 'off',
