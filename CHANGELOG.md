@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.0...v2.3.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* update parser options ([9a93803](https://github.com/cenk1cenk2/eslint-config/commit/9a9380359b634cec4882c749cff16410afb91785))
+
 # [2.3.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.4...v2.3.0) (2022-01-31)
 
 
