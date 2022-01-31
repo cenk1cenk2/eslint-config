@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.4...v2.3.0) (2022-01-31)
+
+
+### Features
+
+* relax some rules ([c6243e7](https://github.com/cenk1cenk2/eslint-config/commit/c6243e72fd409b7c0d81c5111e166deb2e030c17))
+
 ## [2.2.4](https://github.com/cenk1cenk2/eslint-config/compare/v2.2.3...v2.2.4) (2022-01-30)
 
 
