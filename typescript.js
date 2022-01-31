@@ -6,10 +6,7 @@ module.exports = {
       files: [ '*.ts', '*.tsx' ],
       plugins: [ '@typescript-eslint' ],
       extends: [ 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended' ],
-      parserOptions: {
-        ecmaVersion: 'esnext',
-        sourceType: 'module'
-      },
+      parserOptions: {},
       rules: {
         // this is a bit buggy at the moment
         '@typescript-eslint/explicit-module-boundary-types': 'off',

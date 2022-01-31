@@ -5,8 +5,6 @@ module.exports = {
     {
       files: [ '*.ts', '*.tsx' ],
       parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
         project: 'tsconfig.json'
       },
       rules: {
