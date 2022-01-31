@@ -160,28 +160,28 @@ module.exports = {
               // 'set',
 
               // Methods
-              'public-static-method',
-              'protected-static-method',
-              'private-static-method',
+              // 'public-static-method',
+              // 'protected-static-method',
+              // 'private-static-method',
+              //
+              // 'public-instance-method',
+              // 'protected-instance-method',
+              // 'private-instance-method',
+              'static-method',
 
-              'public-instance-method',
-              'protected-instance-method',
-              'private-instance-method',
+              'public-method',
+              // 'public-decorated-method',
+              'protected-method',
+              // 'protected-decorated-method',
+              'private-method',
+              // 'private-decorated-method',
 
               'public-abstract-method',
               'protected-abstract-method',
               'private-abstract-method',
 
-              'public-method',
-              'public-decorated-method',
-              'protected-method',
-              'protected-decorated-method',
-              'private-method',
-              'private-decorated-method',
-
-              'static-method',
-              'instance-method',
-              'decorated-method',
+              // 'instance-method',
+              // 'decorated-method',
               'abstract-method',
 
               'method'
@@ -221,7 +221,7 @@ module.exports = {
 
           {
             selector: 'property',
-            format: [ 'camelCase', 'UPPER_CASE' ]
+            format: [ 'camelCase', 'UPPER_CASE', 'snake_case' ]
           },
 
           {
@@ -233,7 +233,7 @@ module.exports = {
 
           {
             selector: 'enumMember',
-            format: [ 'UPPER_CASE' ]
+            format: [ 'UPPER_CASE', 'camelCase' ]
           },
 
           {
@@ -299,8 +299,8 @@ module.exports = {
           {
             allowConstructorOnly: true,
             allowEmpty: false,
-            allowStaticOnly: false,
-            allowWithDecorator: false
+            allowStaticOnly: true,
+            allowWithDecorator: true
           }
         ],
         '@typescript-eslint/no-inferrable-types': 'error',

@@ -36,7 +36,6 @@ module.exports = {
       }
     ],
     'import/export': 'error',
-    'import/exports-last': 'error',
     'import/no-extraneous-dependencies': 'error',
     'import/no-self-import': 'error',
     'import/no-useless-path-segments': 'error'
