@@ -4,7 +4,7 @@ const { loadTsConfig } = require('load-tsconfig')
  * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.Config['rules']}
  */
-function generateImportPluginGroupCases (options) {
+function generateImportGroups (options) {
   const defaults = [ '@cenk1cenk2', '@cenk1cenk2-*' ]
 
   options.paths = Array.isArray(options.paths) ? [ ...options.paths, ...defaults ] : defaults
@@ -68,4 +68,4 @@ function generateImportPluginGroupCases (options) {
   }
 }
 
-module.exports = generateImportPluginGroupCases
+module.exports = { generateImportGroups }
