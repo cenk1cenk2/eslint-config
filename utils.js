@@ -72,7 +72,7 @@ function generateImportGroups (options) {
 
 /**
  * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
- * @returns {import("eslint").Linter.Config['overrides']}
+ * @returns {import("eslint").Linter.ConfigOverride}
  */
 function generateImportGroupsWithOverride (options) {
   return [
