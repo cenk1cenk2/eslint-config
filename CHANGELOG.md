@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.4...v2.4.0) (2022-01-31)
+
+
+### Features
+
+* adds the import helper ([7d8e040](https://github.com/cenk1cenk2/eslint-config/commit/7d8e040e2d60d8f2d33d09cd5058de6077d3b1da))
+
 ## [2.3.4](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.3...v2.3.4) (2022-01-31)
 
 
