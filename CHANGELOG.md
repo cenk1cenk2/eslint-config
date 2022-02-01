@@ -1,3 +1,10 @@
+## [2.5.2](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.1...v2.5.2) (2022-02-01)
+
+
+### Bug Fixes
+
+* use flat arrays ([c78b8c6](https://github.com/cenk1cenk2/eslint-config/commit/c78b8c6b8d98e44b1c2cf0c6aa8a7f088c285e06))
+
 ## [2.5.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.0...v2.5.1) (2022-02-01)
 
 
