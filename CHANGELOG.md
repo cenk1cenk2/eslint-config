@@ -1,3 +1,10 @@
+## [2.5.3](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.2...v2.5.3) (2022-02-01)
+
+
+### Bug Fixes
+
+* allowed groups ([2e5a615](https://github.com/cenk1cenk2/eslint-config/commit/2e5a615d1918059f52f1f2bc29e709779194f844))
+
 ## [2.5.2](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.1...v2.5.2) (2022-02-01)
 
 
