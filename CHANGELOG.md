@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.4.0...v2.5.0) (2022-02-01)
+
+
+### Features
+
+* autoresolve typescript paths ([6fa8fcf](https://github.com/cenk1cenk2/eslint-config/commit/6fa8fcfed10a7dc7a4461ace7416f96e5088a3b9))
+
 # [2.4.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.3.4...v2.4.0) (2022-01-31)
 
 
