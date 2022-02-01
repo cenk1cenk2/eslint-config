@@ -7,7 +7,7 @@ const { loadTsConfig } = require('load-tsconfig')
 function generateImportPluginGroupCases (options) {
   const defaults = [ '@cenk1cenk2', '@cenk1cenk2-*' ]
 
-  options.paths = options.paths ? options.paths.push(...defaults) : defaults
+  options.paths = Array.isArray(options.paths) ? [ ...options.paths, ...defaults ] : defaults
 
   /** @type {string[]} */
   let tsConfigPaths = []
