@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.0...v2.5.1) (2022-02-01)
+
+
+### Bug Fixes
+
+* try with flatmap ([956c3a4](https://github.com/cenk1cenk2/eslint-config/commit/956c3a496ea786540377655af3d4ec8a71622470))
+
 # [2.5.0](https://github.com/cenk1cenk2/eslint-config/compare/v2.4.0...v2.5.0) (2022-02-01)
 
 
