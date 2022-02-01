@@ -27,7 +27,7 @@ function generateImportPluginGroupCases (options) {
       'error',
       {
         pathGroups: [
-          ...options.paths.map((path) => {
+          ...options.paths.flatMap((path) => {
             return [
               {
                 pattern: `${path}/**`,
@@ -40,7 +40,7 @@ function generateImportPluginGroupCases (options) {
               }
             ]
           }),
-          ...tsConfigPaths.map((path) => {
+          ...tsConfigPaths.flatMap((path) => {
             return [
               {
                 pattern: `${path}`,
