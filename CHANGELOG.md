@@ -1,3 +1,11 @@
+## [2.5.4](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.3...v2.5.4) (2022-02-01)
+
+
+### Bug Fixes
+
+* update function ([1f44e37](https://github.com/cenk1cenk2/eslint-config/commit/1f44e37062366c67ea001c86f8be3ebc4d3f0eb9))
+* update utils ([3beeab4](https://github.com/cenk1cenk2/eslint-config/commit/3beeab4756c1a517e9d65e4137f0e041daee70c1))
+
 ## [2.5.3](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.2...v2.5.3) (2022-02-01)
 
 
