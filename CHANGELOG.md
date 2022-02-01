@@ -1,3 +1,10 @@
+## [2.5.6](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.5...v2.5.6) (2022-02-01)
+
+
+### Bug Fixes
+
+* update the config override func ([68a0b1f](https://github.com/cenk1cenk2/eslint-config/commit/68a0b1f4ae48036016dcfa42390012fa7aedf206))
+
 ## [2.5.5](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.4...v2.5.5) (2022-02-01)
 
 
