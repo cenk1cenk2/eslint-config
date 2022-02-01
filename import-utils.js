@@ -33,12 +33,12 @@ function generateImportPluginGroupCases (options) {
 
               {
                 pattern: `${path}/**`,
-                group: 'internal'
+                group: 'index'
               },
 
               {
                 pattern: `${path}`,
-                group: 'internal'
+                group: 'index'
               }
             ]
           }, []),
@@ -48,7 +48,7 @@ function generateImportPluginGroupCases (options) {
 
               {
                 pattern: `${path}`,
-                group: 'internal'
+                group: 'index'
               }
             ]
           }, [])
@@ -56,7 +56,7 @@ function generateImportPluginGroupCases (options) {
         pathGroupsExcludedImportTypes: [ 'builtin' ],
         groups: [
           [ 'builtin', 'external' ],
-          [ 'internal', 'index', 'parent', 'sibling' ]
+          [ 'index', 'parent', 'sibling' ]
         ],
         'newlines-between': 'always',
         alphabetize: {
