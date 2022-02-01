@@ -27,8 +27,10 @@ function generateImportPluginGroupCases (options) {
       'error',
       {
         pathGroups: [
-          ...options.paths.flatMap((path) => {
+          ...options.paths.reduce((o, path) => {
             return [
+              ...o,
+
               {
                 pattern: `${path}/**`,
                 group: 'internal'
@@ -39,15 +41,17 @@ function generateImportPluginGroupCases (options) {
                 group: 'internal'
               }
             ]
-          }),
-          ...tsConfigPaths.flatMap((path) => {
+          }, []),
+          ...tsConfigPaths.reduce((o, path) => {
             return [
+              ...o,
+
               {
                 pattern: `${path}`,
                 group: 'internal'
               }
             ]
-          })
+          }, [])
         ],
         pathGroupsExcludedImportTypes: [ 'builtin' ],
         groups: [
