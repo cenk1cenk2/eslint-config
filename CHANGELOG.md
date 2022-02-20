@@ -1,3 +1,10 @@
+## [2.5.7](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.6...v2.5.7) (2022-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([ef87573](https://github.com/cenk1cenk2/eslint-config/commit/ef87573b73e7e6c3ce5e95c38024e059d8e898bd))
+
 ## [2.5.6](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.5...v2.5.6) (2022-02-01)
 
 
