@@ -1,3 +1,13 @@
+## [2.5.8](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.7...v2.5.8) (2022-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([88816e0](https://github.com/cenk1cenk2/eslint-config/commit/88816e0a109077e47c54b10ebfda8d42a650c000))
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([cb7b1d3](https://github.com/cenk1cenk2/eslint-config/commit/cb7b1d39f868f1b972a9d433078dcbe950fcd4cc))
+* **deps:** update all slow ring [@weekly](https://github.com/weekly) ([3e370b1](https://github.com/cenk1cenk2/eslint-config/commit/3e370b1fe59141e899f3443aa4ae7e3269783fe1))
+* **deps:** update dependency eslint-plugin-import to ^2.26.0 ([743708f](https://github.com/cenk1cenk2/eslint-config/commit/743708fff7da383a930fc9b1d043842636f14e3b))
+
 ## [2.5.7](https://github.com/cenk1cenk2/eslint-config/compare/v2.5.6...v2.5.7) (2022-02-20)
 
 
