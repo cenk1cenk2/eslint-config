@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "Eslint configuration for my taste.",
   "main": "index.js",
-  "repository": "https://github.com/cenk1cenk2/eslint-config",
+  "repository": "git@gitlab.kilic.dev:config/eslint-config.git",
   "author": "Cenk Kilic",
   "license": "MIT",
   "scripts": {
