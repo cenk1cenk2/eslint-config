@@ -1,3 +1,10 @@
+## [2.5.19](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.18...v2.5.19) (2022-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://gitlab.kilic.dev/weekly) to ^5.30.5 ([0cc38c5](https://gitlab.kilic.dev/config/eslint-config/commit/0cc38c589a5272891a3be4515fc6d2c8386b6ca1))
+
 ## [2.5.18](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.17...v2.5.18) (2022-07-03)
 
 
