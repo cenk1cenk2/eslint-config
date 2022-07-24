@@ -45,8 +45,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.30.6",
-    "@typescript-eslint/parser": "^5.30.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
     "eslint-plugin-import": "^2.26.0",
     "load-tsconfig": "^0.2.3"
   },
