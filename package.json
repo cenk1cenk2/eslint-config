@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "@cenk1cenk2/cz-cc": "^1.5.3",
-    "@nuxtjs/eslint-config": "^10.0.0",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "@nuxtjs/eslint-config": "^11.0.0",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.23.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react-hooks": "^4.6.0",
