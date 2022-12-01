@@ -1,3 +1,10 @@
+## [2.5.38](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.37...v2.5.38) (2022-12-01)
+
+
+### Bug Fixes
+
+* update configuration ([8be739d](https://gitlab.kilic.dev/config/eslint-config/commit/8be739db38c9facdb4d2832379c0bd50cb6cc178))
+
 ## [2.5.37](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.36...v2.5.37) (2022-11-27)
 
 
