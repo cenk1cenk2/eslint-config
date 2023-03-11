@@ -217,8 +217,7 @@ module.exports = {
 
           {
             selector: 'parameter',
-            format: [ 'camelCase', 'PascalCase' ],
-            leadingUnderscore: 'forbid'
+            format: [ 'camelCase', 'PascalCase' ]
           },
 
           {
@@ -229,8 +228,7 @@ module.exports = {
           {
             selector: 'memberLike',
             modifiers: [ 'private' ],
-            format: [ 'camelCase' ],
-            leadingUnderscore: 'forbid'
+            format: [ 'camelCase' ]
           },
 
           {
