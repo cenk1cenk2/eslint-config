@@ -1,3 +1,10 @@
+# [2.6.0](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.52...v2.6.0) (2023-03-11)
+
+
+### Features
+
+* dont forbid leading underscores ([1bb8027](https://gitlab.kilic.dev/config/eslint-config/commit/1bb802712a4b2ee3f3c3481de888d6739e7675d3))
+
 ## [2.5.52](https://gitlab.kilic.dev/config/eslint-config/compare/v2.5.51...v2.5.52) (2023-03-05)
 
 
