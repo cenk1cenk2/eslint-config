@@ -1,3 +1,11 @@
+## [2.6.2](https://gitlab.kilic.dev/config/eslint-config/compare/v2.6.1...v2.6.2) (2023-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://gitlab.kilic.dev/weekly) to ^5.55.0 ([76900c4](https://gitlab.kilic.dev/config/eslint-config/commit/76900c412332d2dc2c9665a2aa471596e520bafb))
+* **deps:** update dependency load-tsconfig to ^0.2.5 ([5a72358](https://gitlab.kilic.dev/config/eslint-config/commit/5a7235872a7fba9637be850016b193976c629186))
+
 ## [2.6.1](https://gitlab.kilic.dev/config/eslint-config/compare/v2.6.0...v2.6.1) (2023-03-12)
 
 
