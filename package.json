@@ -45,8 +45,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.55.0",
-    "@typescript-eslint/parser": "^5.55.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
     "eslint-plugin-import": "^2.27.5",
     "load-tsconfig": "^0.2.5"
   },
@@ -58,7 +58,7 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react-hooks": "^4.6.0",
     "lint-staged": "^13.2.0",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.7",
     "simple-git-hooks": "^2.8.1"
   },
   "config": {
