@@ -45,8 +45,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "eslint-plugin-import": "^2.27.5",
     "load-tsconfig": "^0.2.5"
   },
@@ -54,10 +54,10 @@
     "@cenk1cenk2/cz-cc": "^1.6.0",
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.37.0",
+    "eslint": "^8.38.0",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "lint-staged": "^13.2.0",
+    "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
     "simple-git-hooks": "^2.8.1"
   },
