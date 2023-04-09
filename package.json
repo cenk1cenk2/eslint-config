@@ -7,11 +7,11 @@
   "author": "Cenk Kilic",
   "license": "MIT",
   "scripts": {
-    "lint": "prettier --loglevel warn --write ./*.js && eslint --ext .ts,.js,.tsx,.jsx --fix ./",
-    "lint:check": "eslint --ext .ts,.js,.tsx,.jsx ./"
+    "format": "prettier --loglevel warn --write ./*.js && eslint --ext .ts,.js,.tsx,.jsx --fix ./",
+    "lint": "eslint --ext .ts,.js,.tsx,.jsx ./"
   },
   "simple-git-hooks": {
-    "pre-commit": "yarn exec lint-staged",
+    "pre-commit": "pnpm exec lint-staged",
     "prepare-commit-msg": "[ -t 1 ] && exec < /dev/tty && git cz --hook || true"
   },
   "lint-staged": {
