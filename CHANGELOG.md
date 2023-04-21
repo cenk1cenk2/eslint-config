@@ -1,3 +1,10 @@
+# [2.7.0](https://gitlab.kilic.dev/config/eslint-config/compare/v2.6.6...v2.7.0) (2023-04-21)
+
+
+### Features
+
+* add svelte as linting type ([3b1eb78](https://gitlab.kilic.dev/config/eslint-config/commit/3b1eb78c24d522b796897246f946dd479fc90872))
+
 ## [2.6.6](https://gitlab.kilic.dev/config/eslint-config/compare/v2.6.5...v2.6.6) (2023-04-16)
 
 
