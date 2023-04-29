@@ -23,7 +23,7 @@ module.exports = {
       'error',
       {
         code: 180,
-        comments: 0
+        comments: 180
       }
     ],
     'no-multi-spaces': 'error',

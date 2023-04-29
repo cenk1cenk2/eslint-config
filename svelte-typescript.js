@@ -10,6 +10,9 @@ module.exports = {
       parser: 'svelte-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser'
+      },
+      rules: {
+        'max-len': 'off'
       }
     }
   ]
