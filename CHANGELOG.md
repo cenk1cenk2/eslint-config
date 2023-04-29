@@ -1,3 +1,10 @@
+## [2.7.1](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.0...v2.7.1) (2023-04-29)
+
+
+### Bug Fixes
+
+* update svelte config ([a37b9bc](https://gitlab.kilic.dev/config/eslint-config/commit/a37b9bce4723f77050ad593d5721f950bd4ffe1f))
+
 # [2.7.0](https://gitlab.kilic.dev/config/eslint-config/compare/v2.6.6...v2.7.0) (2023-04-21)
 
 
