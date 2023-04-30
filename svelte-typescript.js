@@ -12,7 +12,9 @@ module.exports = {
         parser: '@typescript-eslint/parser'
       },
       rules: {
-        'max-len': 'off'
+        'max-len': 'off',
+        'no-throw-literal': 'off',
+        '@typescript-eslint/no-throw-literal': 'off'
       }
     }
   ]
