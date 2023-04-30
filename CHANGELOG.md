@@ -1,3 +1,10 @@
+## [2.7.2](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.1...v2.7.2) (2023-04-30)
+
+
+### Bug Fixes
+
+* disable error throwing for sveltekit ([d3f80e8](https://gitlab.kilic.dev/config/eslint-config/commit/d3f80e81fedc80964dacd0bf6a136c3491e68b7a))
+
 ## [2.7.1](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.0...v2.7.1) (2023-04-29)
 
 
