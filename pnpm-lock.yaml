@@ -274,7 +274,7 @@ packages:
       enquirer: 2.3.6
       external-editor: 3.1.0
       find-git-root: 1.0.4
-      listr2: 6.4.1(enquirer@2.3.6)
+      listr2: 6.4.2(enquirer@2.3.6)
     optionalDependencies:
       '@commitlint/load': 17.5.0
     transitivePeerDependencies:
@@ -942,7 +942,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001482
-      electron-to-chromium: 1.4.380
+      electron-to-chromium: 1.4.381
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
     dev: false
@@ -1262,8 +1262,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.380:
-    resolution: {integrity: sha512-XKGdI4pWM78eLH2cbXJHiBnWUwFSzZM7XujsB6stDiGu9AeSqziedP6amNLpJzE3i0rLTcfAwdCTs5ecP5yeSg==}
+  /electron-to-chromium@1.4.381:
+    resolution: {integrity: sha512-jSbS1KRmmGO6SwssmVQpCy1jENfCJT6hN36W6Dxj5HXUj59cUn6yd4gv5113mfATo6aEj/mPUTkMZmNknFXj6Q==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -2455,8 +2455,8 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /listr2@6.4.1(enquirer@2.3.6):
-    resolution: {integrity: sha512-o1hCsddKFjzExZKeIhORCDNONRNVmtq/4lSGT+X1DuVIeuJztfPC+C+6ocsGMDDSjxv6YNsU6ZQUSji2f7+klQ==}
+  /listr2@6.4.2(enquirer@2.3.6):
+    resolution: {integrity: sha512-v55SFIDP7SiPEYFeIFGbKW44B4NPpqGEklbAc1EKacMxIqFVXpDlc93e/Q6hE3IgIGRu5870rh5yJc+ESwGUpQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       enquirer: '>= 2.3.0 < 3'
