@@ -12,10 +12,10 @@ dependencies:
     specifier: '>= 7'
     version: 12.1.0(eslint@8.48.0)(typescript@5.2.2)
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.4.1
+    specifier: ^6.5.0
     version: 6.5.0(@typescript-eslint/parser@6.5.0)(eslint@8.48.0)(typescript@5.2.2)
   '@typescript-eslint/parser':
-    specifier: ^6.4.1
+    specifier: ^6.5.0
     version: 6.5.0(eslint@8.48.0)(typescript@5.2.2)
   eslint-config-react:
     specifier: '>= 1'
@@ -47,7 +47,7 @@ devDependencies:
     specifier: ^13.3.0
     version: 13.3.0
   prettier:
-    specifier: ^3.0.2
+    specifier: ^3.0.3
     version: 3.0.3
   simple-git-hooks:
     specifier: ^2.9.0
