@@ -28,7 +28,7 @@ dependencies:
     version: 4.6.0(eslint@8.49.0)
   eslint-plugin-svelte:
     specifier: '>= 2'
-    version: 2.33.0(eslint@8.49.0)(ts-node@10.9.1)
+    version: 2.33.1(eslint@8.49.0)(ts-node@10.9.1)
   load-tsconfig:
     specifier: ^0.2.5
     version: 0.2.5
@@ -1264,8 +1264,8 @@ packages:
       eslint: 8.49.0
     dev: false
 
-  /eslint-plugin-svelte@2.33.0(eslint@8.49.0)(ts-node@10.9.1):
-    resolution: {integrity: sha512-kk7Z4BfxVjFYJseFcOpS8kiKNio7KnAnhFagmM89h1wNSKlM7tIn+uguNQppKM9leYW+S+Us0Rjg2Qg3zsEcvg==}
+  /eslint-plugin-svelte@2.33.1(eslint@8.49.0)(ts-node@10.9.1):
+    resolution: {integrity: sha512-veYmyjsbt8ikXdaa6pLsgytdlzJpZZKw9vRaQlRBNKaLNmrbsdJulwiWfcDZ7tYJdaVpRB4iDFn/fuPeebxUVg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
