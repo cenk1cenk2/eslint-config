@@ -38,8 +38,8 @@ dependencies:
 
 devDependencies:
   '@cenk1cenk2/cz-cc':
-    specifier: ^1.7.0
-    version: 1.7.0
+    specifier: ^1.7.1
+    version: 1.7.1
   eslint:
     specifier: ^8.49.0
     version: 8.49.0
@@ -80,8 +80,8 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
 
-  /@cenk1cenk2/cz-cc@1.7.0:
-    resolution: {integrity: sha512-rlC/Bq1+rRnp4y1wVxHo14d0dGC9/W1NTKWd4SA0DfmVDZK3btUnZNmg06hWDY+dSNzr1V3skiwgeuIPN4idaw==}
+  /@cenk1cenk2/cz-cc@1.7.1:
+    resolution: {integrity: sha512-v4/vT83yWiUFYbiau35v5feTvmZ/dvQyNJTWIe9YKfyvO0Th/xCwtYG/gFoUQV598QGvBdgfIhd0L9EtsVGKWA==}
     engines: {node: '>= 16'}
     dependencies:
       '@listr2/prompt-adapter-enquirer': 1.0.1(enquirer@2.4.1)
