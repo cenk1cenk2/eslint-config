@@ -1,3 +1,10 @@
+## [2.7.22](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.21...v2.7.22) (2023-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://gitlab.kilic.dev/weekly) to ^6.7.3 ([38fa91c](https://gitlab.kilic.dev/config/eslint-config/commit/38fa91c4cd4961325be4166dd630efb4225ed043))
+
 ## [2.7.21](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.20...v2.7.21) (2023-09-24)
 
 
