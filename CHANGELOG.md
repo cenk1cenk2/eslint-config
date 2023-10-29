@@ -1,3 +1,11 @@
+## [2.7.25](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.24...v2.7.25) (2023-10-29)
+
+
+### Bug Fixes
+
+* **deps:** update all slow ring [@weekly](https://gitlab.kilic.dev/weekly) to ^6.9.0 ([bd0f089](https://gitlab.kilic.dev/config/eslint-config/commit/bd0f0897fb7179a926213292de75728d7592197d))
+* **deps:** update dependency eslint-plugin-import to ^2.29.0 ([99386ba](https://gitlab.kilic.dev/config/eslint-config/commit/99386ba42852b3703ee77a3aba012b2311182e05))
+
 ## [2.7.24](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.23...v2.7.24) (2023-10-22)
 
 
