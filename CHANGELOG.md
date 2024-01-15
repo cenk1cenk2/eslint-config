@@ -1,3 +1,10 @@
+## [2.7.36](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.35...v2.7.36) (2024-01-15)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates to ^6.19.0 ([8b8a93d](https://gitlab.kilic.dev/config/eslint-config/commit/8b8a93dafa337266238fa381179ca789250a14a7))
+
 ## [2.7.35](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.34...v2.7.35) (2024-01-08)
 
 
