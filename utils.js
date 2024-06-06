@@ -6,10 +6,10 @@ const { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } = require('./constants')
  * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.Config['rules']}
  */
-function generateImportGroups (options) {
-  const defaults = [ '@cenk1cenk2', '@cenk1cenk2-*' ]
+function generateImportGroups(options) {
+  const defaults = ['@cenk1cenk2', '@cenk1cenk2-*']
 
-  options.paths = Array.isArray(options.paths) ? [ ...options.paths, ...defaults ] : defaults
+  options.paths = Array.isArray(options.paths) ? [...options.paths, ...defaults] : defaults
 
   /** @type {string[]} */
   let tsConfigPaths = []
@@ -55,10 +55,10 @@ function generateImportGroups (options) {
             ]
           }, [])
         ],
-        pathGroupsExcludedImportTypes: [ 'builtin' ],
+        pathGroupsExcludedImportTypes: ['builtin'],
         groups: [
-          [ 'builtin', 'external' ],
-          [ 'index', 'parent', 'sibling' ]
+          ['builtin', 'external'],
+          ['index', 'parent', 'sibling']
         ],
         'newlines-between': 'always',
         alphabetize: {
@@ -74,11 +74,11 @@ function generateImportGroups (options) {
  * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.ConfigOverride}
  */
-function generateImportGroupsWithOverride (options) {
+function generateImportGroupsWithOverride(options) {
   return [
     {
       files: ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS,
-      plugins: [ 'import' ],
+      plugins: ['import'],
       rules: generateImportGroups(options)
     }
   ]

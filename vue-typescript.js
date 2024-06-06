@@ -1,10 +1,10 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: [ './index', './typescript' ],
+  extends: ['./index', './typescript'],
   overrides: [
     {
-      files: [ '*.vue' ],
-      extends: [ './index', '@nuxtjs/eslint-config-typescript/index' ],
+      files: ['*.vue'],
+      extends: ['./index', '@nuxtjs/eslint-config-typescript/index'],
       rules: {}
     }
   ]

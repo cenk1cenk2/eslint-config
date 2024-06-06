@@ -1,10 +1,10 @@
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
-  extends: [ './index' ],
+  extends: ['./index'],
   overrides: [
     {
-      files: [ '*.jsx', '*.tsx' ],
-      plugins: [ 'react', 'react-hooks' ],
+      files: ['*.jsx', '*.tsx'],
+      plugins: ['react', 'react-hooks'],
       parserOptions: {
         project: null,
         ecmaFeatures: {
@@ -22,10 +22,10 @@ module.exports = {
         'no-unused-vars': 'off',
         'no-undef': 'off',
         indent: 'off',
-        'react/jsx-indent': [ 'error', 2 ],
-        'react/jsx-indent-props': [ 'error', 2 ],
-        'react/jsx-curly-newline': [ 'error', 'consistent' ],
-        'react/jsx-fragments': [ 'error', 'element' ],
+        'react/jsx-indent': ['error', 2],
+        'react/jsx-indent-props': ['error', 2],
+        'react/jsx-curly-newline': ['error', 'consistent'],
+        'react/jsx-fragments': ['error', 'element'],
         'react/require-render-return': 'error',
         'react/self-closing-comp': [
           'error',
@@ -44,9 +44,9 @@ module.exports = {
           }
         ],
         'react/jsx-closing-tag-location': 'error',
-        'react/jsx-curly-brace-presence': [ 'error', { props: 'never', children: 'never' } ],
-        'react/jsx-equals-spacing': [ 'error', 'never' ],
-        'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
+        'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+        'react/jsx-equals-spacing': ['error', 'never'],
+        'react/jsx-first-prop-new-line': ['error', 'multiline'],
         'react/jsx-props-no-multi-spaces': 'error',
         'react/jsx-wrap-multilines': [
           'error',
