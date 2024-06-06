@@ -1,6 +1,6 @@
 {
   "name": "@cenk1cenk2/eslint-config",
-  "version": "2.7.45",
+  "version": "2.7.49",
   "description": "Eslint configuration for my taste.",
   "main": "index.js",
   "repository": "git@gitlab.kilic.dev:config/eslint-config.git",
@@ -54,8 +54,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.7.1",
-    "@typescript-eslint/parser": "^7.7.1",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
     "eslint-plugin-import": "^2.29.1",
     "load-tsconfig": "^0.2.5"
   },
@@ -70,5 +70,6 @@
     "commitizen": {
       "path": "./node_modules/@cenk1cenk2/cz-cc"
     }
-  }
+  },
+  "packageManager": "pnpm@9.2.0"
 }
