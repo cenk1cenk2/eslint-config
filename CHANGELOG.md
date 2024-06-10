@@ -1,3 +1,10 @@
+## [2.7.50](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.49...v2.7.50) (2024-06-10)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates to ^7.13.0 ([7a71be4](https://gitlab.kilic.dev/config/eslint-config/commit/7a71be4970baa4724505ecd250d4bf2c7abfdb7f))
+
 ## [2.7.49](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.48...v2.7.49) (2024-06-03)
 
 
