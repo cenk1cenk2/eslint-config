@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@nuxtjs/eslint-config':
-        specifier: '>= 7'
+        specifier: '>= 12.0.0'
         version: 12.0.0(@typescript-eslint/parser@7.17.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)
       '@nuxtjs/eslint-config-typescript':
         specifier: '>= 7'
