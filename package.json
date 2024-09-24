@@ -59,7 +59,7 @@
     "load-tsconfig": "^0.2.5"
   },
   "devDependencies": {
-    "@cenk1cenk2/cz-cc": "^1.7.9",
+    "@cenk1cenk2/cz-cc": "^1.7.10",
     "eslint": "^8.57.1",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
