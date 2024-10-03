@@ -1,3 +1,10 @@
+## [2.7.59](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.58...v2.7.59) (2024-10-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to ^2.31.0 ([122610c](https://gitlab.kilic.dev/config/eslint-config/commit/122610c776ef5fd4c2fe18bc85a6ac930eac57f7))
+
 ## [2.7.58](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.57...v2.7.58) (2024-09-04)
 
 
