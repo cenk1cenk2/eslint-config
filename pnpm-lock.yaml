@@ -127,8 +127,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@listr2/prompt-adapter-enquirer@2.0.11':
-    resolution: {integrity: sha512-4xmQnYzB06d1iiutJdTZyEcvCR9RVC6QehogRqDQckBNfwD7i+6hEntFVAtewI1/52lT3HkgKptJeFwCwmjX0g==}
+  '@listr2/prompt-adapter-enquirer@2.0.12':
+    resolution: {integrity: sha512-WR1RvaiRuSOQ8i8Hr6CLlPXFsL2u9xwoADKYD2GeUsk7EBOx7cb9GFvJhHnlVUZq4LaPvY1U1NtrgXoslteaVA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       enquirer: '>= 2.3.0 < 3'
@@ -1265,8 +1265,8 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  listr2@8.2.4:
-    resolution: {integrity: sha512-opevsywziHd3zHCVQGAj8zu+Z3yHNkkoYhWIGnq54RrCVwLz0MozotJEDnKsIBLvkfLGN6BLOyAeRrYI0pKA4g==}
+  listr2@8.2.5:
+    resolution: {integrity: sha512-iyAZCeyD+c1gPyE9qpFu8af0Y+MRtmKOncdGoA2S5EY8iFq99dmmvkNnHiWo+pj0s7yH7l3KPIgee77tKpXPWQ==}
     engines: {node: '>=18.0.0'}
 
   load-tsconfig@0.2.5:
@@ -1576,8 +1576,8 @@ packages:
     resolution: {integrity: sha512-iETxpjK6YoRWJG5o6hXLwvjYAoW+FEZn9os0PD/b6AP6xQwsa/Y7lCVgIixBbUPMfhu+i2LtdeAqVTgGlQarfA==}
     hasBin: true
 
-  regexp.prototype.flags@1.5.2:
-    resolution: {integrity: sha512-NcDiDkTLuPR+++OCKB0nWafEmhg/Da8aUPLPMQbK+bxKKCm1/S5he+AqYa4PlMCVBalb4/yxIRub6qkEx5yJbw==}
+  regexp.prototype.flags@1.5.3:
+    resolution: {integrity: sha512-vqlC04+RQoFalODCbCumG2xIOvapzVMHwsyIGM/SIE8fRhFFsXeH8/QQ+s0T0kDAhKc4k30s73/0ydkHQz6HlQ==}
     engines: {node: '>= 0.4'}
 
   regexpp@3.2.0:
@@ -1966,13 +1966,13 @@ snapshots:
 
   '@cenk1cenk2/cz-cc@1.7.10(@types/node@22.7.4)(typescript@5.6.2)':
     dependencies:
-      '@listr2/prompt-adapter-enquirer': 2.0.11(enquirer@2.4.1)
+      '@listr2/prompt-adapter-enquirer': 2.0.12(enquirer@2.4.1)
       commitizen: 4.3.1(@types/node@22.7.4)(typescript@5.6.2)
       conventional-commit-types: 3.0.0
       enquirer: 2.4.1
       external-editor: 3.1.0
       find-git-root: 1.0.4
-      listr2: 8.2.4
+      listr2: 8.2.5
     optionalDependencies:
       '@commitlint/load': 19.5.0(@types/node@22.7.4)(typescript@5.6.2)
     transitivePeerDependencies:
@@ -2058,7 +2058,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@listr2/prompt-adapter-enquirer@2.0.11(enquirer@2.4.1)':
+  '@listr2/prompt-adapter-enquirer@2.0.12(enquirer@2.4.1)':
     dependencies:
       enquirer: 2.4.1
 
@@ -2707,7 +2707,7 @@ snapshots:
       object-inspect: 1.13.2
       object-keys: 1.1.1
       object.assign: 4.1.5
-      regexp.prototype.flags: 1.5.2
+      regexp.prototype.flags: 1.5.3
       safe-array-concat: 1.1.2
       safe-regex-test: 1.0.3
       string.prototype.trim: 1.2.9
@@ -3489,7 +3489,7 @@ snapshots:
       debug: 4.3.7
       execa: 8.0.1
       lilconfig: 3.1.2
-      listr2: 8.2.4
+      listr2: 8.2.5
       micromatch: 4.0.8
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -3497,7 +3497,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  listr2@8.2.4:
+  listr2@8.2.5:
     dependencies:
       cli-truncate: 4.0.0
       colorette: 2.0.20
@@ -3783,7 +3783,7 @@ snapshots:
 
   regexp-tree@0.1.27: {}
 
-  regexp.prototype.flags@1.5.2:
+  regexp.prototype.flags@1.5.3:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
