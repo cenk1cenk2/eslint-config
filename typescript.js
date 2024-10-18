@@ -8,7 +8,7 @@ export default [
   ...base,
   ...TypescriptEslint.configs.recommended,
   {
-    files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     plugins: {
       stylestic: StylisticPlugin,
       '@typescript-eslint': TypescriptEslintPlugin
