@@ -1,3 +1,10 @@
+## [2.7.60](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.59...v2.7.60) (2024-10-18)
+
+
+### Performance Improvements
+
+* update with new methodology on eslint9 ([9b96609](https://gitlab.kilic.dev/config/eslint-config/commit/9b9660906d6a2a816e64e496e9e76a309fd3383a))
+
 ## [2.7.59](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.58...v2.7.59) (2024-10-03)
 
 
