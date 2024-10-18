@@ -1,3 +1,10 @@
+## [3.0.7](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.6...v3.0.7) (2024-10-18)
+
+
+### Bug Fixes
+
+* send prettier ([7f4ea79](https://gitlab.kilic.dev/config/eslint-config/commit/7f4ea79f4b81794e46a24c0b944d0c8c045c65e1))
+
 ## [3.0.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.5...v3.0.6) (2024-10-18)
 
 
