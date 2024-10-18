@@ -73,7 +73,7 @@ export function generateImportGroups(options) {
  * @param {{ paths?: string[], tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.Config[]}
  */
-export function importGroupConfig(options) {
+export function configImportGroup(options) {
   return [
     {
       plugins: {
