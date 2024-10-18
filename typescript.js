@@ -6,7 +6,7 @@ import base from './base.js'
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...base,
-  TypescriptEslint.configs.recommended,
+  ...TypescriptEslint.configs.recommended,
   {
     files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     plugins: {
