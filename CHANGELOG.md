@@ -1,3 +1,10 @@
+## [3.0.8](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.7...v3.0.8) (2024-10-18)
+
+
+### Bug Fixes
+
+* rename ([43dc785](https://gitlab.kilic.dev/config/eslint-config/commit/43dc7851db713ca766b05f43bffdd1fd210133d2))
+
 ## [3.0.7](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.6...v3.0.7) (2024-10-18)
 
 
