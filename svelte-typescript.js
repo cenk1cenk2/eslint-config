@@ -16,9 +16,7 @@ export default [
       }
     },
     rules: {
-      'max-len': 'off',
-      'no-throw-literal': 'off',
-      '@typescript-eslint/no-throw-literal': 'off'
+      'max-len': 'off'
     }
   }
 ]

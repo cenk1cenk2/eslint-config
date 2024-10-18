@@ -16,8 +16,6 @@ export default [
       '@typescript-eslint/await-thenable': 'error',
       'dot-notation': 'off',
       '@typescript-eslint/dot-notation': ['error'],
-      'no-throw-literal': 'off',
-      '@typescript-eslint/no-throw-literal': ['error'],
       '@typescript-eslint/prefer-reduce-type-parameter': 'error',
       '@typescript-eslint/consistent-type-imports': [
         'error',
