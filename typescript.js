@@ -13,7 +13,6 @@ export default [
       stylestic: StylisticPlugin,
       '@typescript-eslint': TypescriptEslintPlugin
     },
-    parserOptions: {},
     rules: {
       // this is a bit buggy at the moment
       '@typescript-eslint/explicit-module-boundary-types': 'off',
