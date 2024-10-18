@@ -9,7 +9,8 @@
   "type": "module",
   "scripts": {
     "format": "prettier --log-level warn --write ./*.js && eslint --fix",
-    "lint": "eslint"
+    "lint": "eslint",
+    "inspect": "eslint --inspect-config"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged",
@@ -27,7 +28,7 @@
   "peerDependencies": {
     "@nuxtjs/eslint-config": ">= 7",
     "@nuxtjs/eslint-config-typescript": ">= 7",
-    "eslint": ">= 8",
+    "eslint": ">= 9",
     "eslint-config-react": ">= 1",
     "eslint-plugin-react-hooks": ">= 4",
     "eslint-plugin-svelte": ">= 2",
@@ -54,6 +55,8 @@
     }
   },
   "dependencies": {
+    "@eslint/js": "^9.13.0",
+    "@stylistic/eslint-plugin": "^2.9.0",
     "@typescript-eslint/eslint-plugin": "^8.10.0",
     "@typescript-eslint/parser": "^8.10.0",
     "eslint-plugin-import": "^2.31.0",

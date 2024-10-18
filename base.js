@@ -1,4 +1,6 @@
 import js from '@eslint/js'
+import StylisticPlugin from '@stylistic/eslint-plugin'
+
 import imports from './import.js'
 
 /** @type {import("eslint").Linter.Config[]} */
@@ -18,30 +20,33 @@ export default [
         sourceType: 'module'
       }
     },
+    plugins: {
+      stylistic: StylisticPlugin
+    },
     rules: {
-      semi: ['error', 'never'],
-      'linebreak-style': ['error', 'unix'],
+      'stylistic/semi': ['error', 'never'],
+      'stylistic/linebreak-style': ['error', 'unix'],
       'sort-imports': 'off',
-      indent: ['error', 2],
-      'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-      'comma-spacing': ['error', { before: false, after: true }],
-      'func-call-spacing': ['error', 'never'],
-      'max-len': [
+      'stylistic/indent': ['error', 2],
+      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true } ],
+      'stylistic/comma-spacing': ['error', { before: false, after: true } ],
+      'stylistic/func-call-spacing': ['error', 'never'],
+      'stylistic/max-len': [
         'error',
         {
           code: 180,
           comments: 180
         }
       ],
-      'no-multi-spaces': 'error',
-      'no-multiple-empty-lines': [
+      'stylistic/no-multi-spaces': 'error',
+      'stylistic/no-multiple-empty-lines': [
         'error',
         {
           max: 1
         }
       ],
-      'space-before-function-paren': [ 'error', 'never' ],
-      'object-curly-newline': [
+      'stylistic/space-before-function-paren': ['error', 'never'],
+      'stylistic/object-curly-newline': [
         'error',
         {
           ObjectExpression: {
@@ -60,11 +65,11 @@ export default [
           }
         }
       ],
-      'object-curly-spacing': ['error', 'always'],
-      'comma-dangle': ['error', 'never'],
-      'array-element-newline': ['error', 'consistent'],
-      'array-bracket-newline': ['error', 'consistent'],
-      'array-bracket-spacing': [
+      'stylistic/object-curly-spacing': ['error', 'always'],
+      'stylistic/comma-dangle': ['error', 'never'],
+      'stylistic/array-element-newline': ['error', 'consistent'],
+      'stylistic/array-bracket-newline': ['error', 'consistent'],
+      'stylistic/array-bracket-spacing': [
         'error',
         'never',
         {
@@ -74,16 +79,14 @@ export default [
       ],
       curly: ['error', 'all'],
       complexity: ['error', 25],
-      'constructor-super': 'error',
       'dot-notation': 'error',
       eqeqeq: ['error', 'smart'],
-      quotes: ['error', 'single'],
-      'quote-props': ['error', 'as-needed'],
+      'stylistic/quotes': ['error', 'single'],
+      'stylistic/quote-props': ['error', 'as-needed'],
       'guard-for-in': 'error',
-      'id-blacklist': 'off',
       'id-match': 'off',
       'max-classes-per-file': 'off',
-      'new-parens': 'error',
+      'stylistic/new-parens': 'error',
       'no-bitwise': 'error',
       'no-caller': 'error',
       'no-prototype-builtins': 'off',
@@ -100,7 +103,7 @@ export default [
         }
       ],
       'no-throw-literal': 'error',
-      'no-trailing-spaces': 'error',
+      'stylistic/no-trailing-spaces': 'error',
       'no-undef-init': 'error',
       'no-underscore-dangle': 'error',
       'no-unsafe-finally': 'error',
@@ -108,15 +111,15 @@ export default [
       'no-unused-vars': 'error',
       'object-shorthand': 'error',
       'one-var': ['error', 'never'],
-      'template-curly-spacing': ['error', 'never'],
+      'stylistic/template-curly-spacing': ['error', 'never'],
       radix: 'error',
-      'spaced-comment': 'error',
+      'stylistic/spaced-comment': 'error',
       'use-isnan': 'error',
       'valid-typeof': 'warn',
-      'arrow-parens': ['error', 'always'],
-      'keyword-spacing': 'error',
-      'lines-between-class-members': 'off',
-      'padding-line-between-statements': [
+      'stylistic/arrow-parens': ['error', 'always'],
+      'stylistic/keyword-spacing': 'error',
+      'stylistic/lines-between-class-members': 'off',
+      'stylistic/padding-line-between-statements': [
         'error',
         {
           blankLine: 'always',

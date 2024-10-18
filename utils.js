@@ -1,12 +1,13 @@
-const { loadTsConfig } = require('load-tsconfig')
+import { loadTsConfig } from 'load-tsconfig'
+import ImportPlugin from 'eslint-plugin-import'
 
-const { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } = require('./constants')
+import { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } from './constants.js'
 
 /**
- * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
+ * @param {{ paths?: string[], tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.Config['rules']}
  */
-function generateImportGroups(options) {
+export function generateImportGroups(options) {
   const defaults = ['@cenk1cenk2', '@cenk1cenk2-*']
 
   options.paths = Array.isArray(options.paths) ? [...options.paths, ...defaults] : defaults
@@ -71,17 +72,17 @@ function generateImportGroups(options) {
 }
 
 /**
- * @param {{ paths?: string[] tsconfig?: string, tsconfigDir?: string}} options
- * @returns {import("eslint").Linter.ConfigOverride}
+ * @param {{ paths?: string[], tsconfig?: string, tsconfigDir?: string}} options
+ * @returns {import("eslint").Linter.Config[]}
  */
-function generateImportGroupsWithOverride(options) {
+export function generateImportGroupsWithOverride(options) {
   return [
     {
       files: ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS,
-      plugins: ['import'],
+      plugins: {
+        import: ImportPlugin
+      },
       rules: generateImportGroups(options)
     }
   ]
 }
-
-module.exports = { generateImportGroups, generateImportGroupsWithOverride }
