@@ -40,7 +40,7 @@ export default [
           max: 1
         }
       ],
-      'space-before-function-paren': 'error',
+      'space-before-function-paren': [ 'error', 'never' ],
       'object-curly-newline': [
         'error',
         {
@@ -66,7 +66,7 @@ export default [
       'array-bracket-newline': ['error', 'consistent'],
       'array-bracket-spacing': [
         'error',
-        'always',
+        'never',
         {
           objectsInArrays: true,
           arraysInArrays: true

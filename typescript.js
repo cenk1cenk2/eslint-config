@@ -247,7 +247,7 @@ module.exports = {
         '@typescript-eslint/prefer-for-of': 'warn',
         '@typescript-eslint/prefer-function-type': 'error',
         'space-before-function-paren': 'off',
-        '@typescript-eslint/space-before-function-paren': ['error'],
+        '@typescript-eslint/space-before-function-paren': ['error', 'never'],
         'no-extra-parens': 'off',
         '@typescript-eslint/no-extra-parens': ['error'],
         '@typescript-eslint/comma-spacing': [

@@ -1,11 +1,11 @@
 import { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } from './constants.js'
-import importPlugin from 'eslint-plugin-import'
+import plugin from 'eslint-plugin-import'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   {
     files: ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS,
-    plugins: { import: importPlugin },
+    plugins: { import: plugin },
     rules: {
       'sort-imports': 'off',
       'import/first': 'error',
