@@ -1,3 +1,10 @@
+## [3.0.11](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.10...v3.0.11) (2024-10-18)
+
+
+### Bug Fixes
+
+* ignore parser options ([fd1bc7d](https://gitlab.kilic.dev/config/eslint-config/commit/fd1bc7d009eb47b56e0a200b2216958a64027fbc))
+
 ## [3.0.10](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.9...v3.0.10) (2024-10-18)
 
 
