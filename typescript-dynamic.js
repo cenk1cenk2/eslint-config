@@ -4,7 +4,7 @@ import typescript from './typescript.js'
 export default [
   ...typescript,
   {
-    files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     languageOptions: {
       parserOptions: {
         project: 'tsconfig.json'
