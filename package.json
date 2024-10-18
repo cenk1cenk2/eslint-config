@@ -7,6 +7,10 @@
   "author": "Cenk Kilic",
   "license": "MIT",
   "type": "module",
+  "exports": {
+    ".": "./base.js",
+    "./*": "./*.js"
+  },
   "scripts": {
     "format": "prettier --log-level warn --write ./*.js && eslint --fix",
     "lint": "eslint",
