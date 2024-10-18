@@ -1,3 +1,10 @@
+## [3.0.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.3...v3.0.4) (2024-10-18)
+
+
+### Bug Fixes
+
+* update typescript plug ([7d71ffe](https://gitlab.kilic.dev/config/eslint-config/commit/7d71ffe0abc9c832aed25e10daf01cf084881e9a))
+
 ## [3.0.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.2...v3.0.3) (2024-10-18)
 
 
