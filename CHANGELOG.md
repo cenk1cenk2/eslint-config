@@ -1,3 +1,10 @@
+## [3.0.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.4...v3.0.5) (2024-10-18)
+
+
+### Bug Fixes
+
+* push ([4fe0c28](https://gitlab.kilic.dev/config/eslint-config/commit/4fe0c287a5d3e52fac418c61558cd86f1e781762))
+
 ## [3.0.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.3...v3.0.4) (2024-10-18)
 
 
