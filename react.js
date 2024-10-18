@@ -4,7 +4,7 @@ import base from './base.js'
 export default [
   ...base,
   {
-    files: ['*.jsx', '*.tsx'],
+    files: ['**/*.jsx', '**/*.tsx'],
     plugins: ['react', 'react-hooks'],
     languageOptions: {
       parserOptions: {

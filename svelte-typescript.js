@@ -7,15 +7,13 @@ export default [
   ...svelte.configs['flat/recommended'],
   ...typescript,
   {
+    files: ['**/*.svelte'],
     languageOptions: {
+      parser: 'svelte-eslint-parser',
       parserOptions: {
+        parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.svelte']
       }
-    },
-    files: ['*.svelte'],
-    parser: 'svelte-eslint-parser',
-    parserOptions: {
-      parser: '@typescript-eslint/parser'
     },
     rules: {
       'max-len': 'off',

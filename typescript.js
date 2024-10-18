@@ -7,9 +7,9 @@ import base from './base.js'
 export default [
   ...base,
   {
-    files: ['*.ts', '*.tsx'],
+    files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     plugins: {
-      'stylestic': StylisticPlugin,
+      stylestic: StylisticPlugin,
       '@typescript-eslint': TypescriptEslintPlugin
     },
     extends: ['plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended'],

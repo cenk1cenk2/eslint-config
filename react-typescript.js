@@ -6,7 +6,7 @@ export default [
   ...typescript,
   ...react,
   {
-    files: ['*.tsx'],
+    files: ['**/*.tsx'],
     plugins: ['react', 'react-hooks'],
     rules: {
       '@typescript-eslint/no-unused-vars': 'off',

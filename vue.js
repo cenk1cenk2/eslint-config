@@ -4,7 +4,7 @@ import base from './base.js'
 export default [
   ...base,
   {
-    files: ['*.vue'],
+    files: ['**/*.vue'],
     extends: ['@nuxtjs'],
     rules: {
       'vue/singleline-html-element-content-newline': 0,

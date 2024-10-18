@@ -2,12 +2,14 @@ import js from '@eslint/js'
 import StylisticPlugin from '@stylistic/eslint-plugin'
 
 import imports from './import.js'
+import { EXTENSIONS } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   js.configs.recommended,
   ...imports,
   {
+    files: [...EXTENSIONS],
     languageOptions: {
       globals: {
         browser: true,
