@@ -1,6 +1,5 @@
 import ImportPlugin from 'eslint-plugin-import'
 
-import { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } from './constants.js'
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   {

@@ -1,8 +1,6 @@
 import { loadTsConfig } from 'load-tsconfig'
 import ImportPlugin from 'eslint-plugin-import'
 
-import { ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS } from './constants.js'
-
 /**
  * @param {{ paths?: string[], tsconfig?: string, tsconfigDir?: string}} options
  * @returns {import("eslint").Linter.Config['rules']}
@@ -78,7 +76,6 @@ export function generateImportGroups(options) {
 export function generateImportGroupsWithOverride(options) {
   return [
     {
-      files: ALL_KNOWN_JAVASCRIPT_FILE_EXTENSIONS,
       plugins: {
         import: ImportPlugin
       },
