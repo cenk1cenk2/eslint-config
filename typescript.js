@@ -1,18 +1,18 @@
 import StylisticPlugin from '@stylistic/eslint-plugin'
 import TypescriptEslintPlugin from '@typescript-eslint/eslint-plugin'
-
+import TypescriptEslint from 'typescript-eslint'
 import base from './base.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...base,
+  TypescriptEslint.configs.recommended,
   {
     files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     plugins: {
       stylestic: StylisticPlugin,
       '@typescript-eslint': TypescriptEslintPlugin
     },
-    extends: ['plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended'],
     parserOptions: {},
     rules: {
       // this is a bit buggy at the moment
