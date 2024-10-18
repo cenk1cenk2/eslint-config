@@ -6,9 +6,6 @@ export default [
   {
     files: ['**/*.ts', '**/*.mjs', '**/*.cjs', '**/*.tsx', '**/*.svelte', '**/*.vue'],
     languageOptions: {
-      parserOptions: {
-        project: 'tsconfig.json'
-      }
     },
     rules: {
       '@typescript-eslint/no-floating-promises': 'error',
