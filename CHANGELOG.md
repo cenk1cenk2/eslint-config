@@ -1,3 +1,15 @@
+# [3.0.0](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.60...v3.0.0) (2024-10-18)
+
+
+### Performance Improvements
+
+* update ([b66a01b](https://gitlab.kilic.dev/config/eslint-config/commit/b66a01bdeae267a9bd8629302c965c1a79b436a2))
+
+
+### BREAKING CHANGES
+
+* requires eslint9
+
 ## [2.7.60](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.59...v2.7.60) (2024-10-18)
 
 
