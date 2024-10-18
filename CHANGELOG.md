@@ -1,3 +1,10 @@
+## [3.0.12](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.11...v3.0.12) (2024-10-18)
+
+
+### Bug Fixes
+
+* update ts rules ([889e055](https://gitlab.kilic.dev/config/eslint-config/commit/889e055a7e2561e5ba4a229d9643d3a485383175))
+
 ## [3.0.11](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.10...v3.0.11) (2024-10-18)
 
 
