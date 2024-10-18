@@ -8,7 +8,8 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",
+    "./prettierrc": "./.prettierrc.js"
   },
   "scripts": {
     "format": "prettier --log-level warn --write ./*.js && eslint --fix",
