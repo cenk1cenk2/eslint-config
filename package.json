@@ -9,6 +9,7 @@
   "type": "module",
   "exports": {
     ".": "./index.js",
+    "./vue": "./vue.js",
     "./prettierrc": "./.prettierrc.js"
   },
   "scripts": {
