@@ -1,3 +1,10 @@
+# [3.1.0](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.16...v3.1.0) (2024-10-19)
+
+
+### Features
+
+* handle problems with dynamic imports ([3b41c94](https://gitlab.kilic.dev/config/eslint-config/commit/3b41c94d9cdac82a05197e239d7885df37bb8b3c))
+
 ## [3.0.16](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.15...v3.0.16) (2024-10-19)
 
 
