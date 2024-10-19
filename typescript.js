@@ -7,12 +7,13 @@ import { EXTENSIONS_TYPESCRIPT } from './constants.js'
 export default [
   ...ConfigJavascript,
   ...TypescriptEslint.configs.recommended.map((config) => {
-    config.files = EXTENSIONS_TYPESCRIPT
+    config.files = [...EXTENSIONS_TYPESCRIPT]
 
     return config
   }),
   {
-    files: EXTENSIONS_TYPESCRIPT,
+    name: 'cenk1cenk2/typescript/recommended',
+    files: [...EXTENSIONS_TYPESCRIPT],
     plugins: {
       '@typescript-eslint': TypescriptEslintPlugin
     },
@@ -231,9 +232,9 @@ export default [
       '@typescript-eslint/prefer-function-type': 'error',
       '@typescript-eslint/unified-signatures': 'error',
       '@typescript-eslint/no-use-before-define': 'off',
-      '@typescript-eslint/array-type': ['error', { default: 'array' } ],
+      '@typescript-eslint/array-type': ['error', { default: 'array' }],
       '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
-      '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ],
+      '@typescript-eslint/consistent-type-assertions': ['error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' }],
       '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
       '@typescript-eslint/method-signature-style': ['error', 'property'],
       '@typescript-eslint/no-empty-object-type': [

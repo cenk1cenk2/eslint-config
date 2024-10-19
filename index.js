@@ -4,6 +4,7 @@ import ConfigJavascript from './javascript.js'
 import ConfigTypescriptDynamic from './typescript-dynamic.js'
 import ConfigTypescript from './typescript.js'
 import * as utils from './utils.js'
+import * as constants from './constants.js'
 
 export const configs = {
   ['javascript']: ConfigJavascript,
@@ -13,4 +14,4 @@ export const configs = {
   ['typescript-dynamic']: ConfigTypescriptDynamic
 }
 
-export { utils }
+export { utils, constants }

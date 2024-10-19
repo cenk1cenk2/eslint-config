@@ -7,8 +7,11 @@ import { EXTENSIONS } from './constants.js'
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   JavascriptPlugin.configs.recommended,
+
   ...ConfigImports,
+
   {
+    name: 'cenk1cenk2/javascript/recommended',
     files: [...EXTENSIONS],
     languageOptions: {
       globals: {
@@ -30,8 +33,8 @@ export default [
       'stylistic/linebreak-style': ['error', 'unix'],
       'sort-imports': 'off',
       'stylistic/indent': ['error', 2],
-      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true } ],
-      'stylistic/comma-spacing': ['error', { before: false, after: true } ],
+      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+      'stylistic/comma-spacing': ['error', { before: false, after: true }],
       'stylistic/func-call-spacing': ['error', 'never'],
       'stylistic/max-len': [
         'error',

@@ -1,17 +1,23 @@
-import svelte from 'eslint-plugin-svelte'
+import SveltePlugin from 'eslint-plugin-svelte'
+import TypescriptParser from '@typescript-eslint/parser'
+import SvelteParser from 'svelte-eslint-parser'
 
-import typescript from './typescript-dynamic.js'
+import ConfigTypescript from './typescript-dynamic.js'
+import { EXTENSIONS_SVELTE, EXTENSIONS_TYPESCRIPT } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...svelte.configs['flat/recommended'],
-  ...typescript,
+  ...SveltePlugin.configs['flat/recommended'],
+
+  ...ConfigTypescript,
+
   {
-    files: ['**/*.svelte'],
+    name: 'cenk1cenk2/svelte/typescript/recommended',
+    files: [...EXTENSIONS_SVELTE],
     languageOptions: {
-      parser: 'svelte-eslint-parser',
+      parser: SvelteParser,
       parserOptions: {
-        parser: '@typescript-eslint/parser',
+        parser: TypescriptParser,
         extraFileExtensions: ['.svelte']
       }
     },

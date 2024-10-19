@@ -1,10 +1,12 @@
+import { EXTENSIONS_TYPESCRIPT } from './constants.js'
 import ConfigTypescript from './typescript.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...ConfigTypescript,
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.vue', '**/*.svelte'],
+    name: 'cenk1cenk2/typescript-dynamic/recommended',
+    files: [...EXTENSIONS_TYPESCRIPT],
     languageOptions: {
       parserOptions: {
         project: 'tsconfig.json'
@@ -24,7 +26,7 @@ export default [
           disallowTypeAnnotations: true
         }
       ],
-      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false } ]
+      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false }]
     }
   }
 ]
