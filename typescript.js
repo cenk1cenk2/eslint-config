@@ -1,13 +1,18 @@
 import TypescriptEslintPlugin from '@typescript-eslint/eslint-plugin'
 import TypescriptEslint from 'typescript-eslint'
 import ConfigJavascript from './javascript.js'
+import { EXTENSIONS_TYPESCRIPT } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...ConfigJavascript,
-  ...TypescriptEslint.configs.recommended,
+  ...TypescriptEslint.configs.recommended.map((config) => {
+    config.files = EXTENSIONS_TYPESCRIPT
+
+    return config
+  }),
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: EXTENSIONS_TYPESCRIPT,
     plugins: {
       '@typescript-eslint': TypescriptEslintPlugin
     },
