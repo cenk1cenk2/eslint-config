@@ -4,7 +4,7 @@ export default {
   tabWidth: 2,
   useTabs: false,
   quoteProps: 'as-needed',
-  vueIndentScriptAndStyle: true,
+  vueIndentScriptAndStyle: false,
   semi: false,
   singleQuote: true,
   trailingComma: 'none',
