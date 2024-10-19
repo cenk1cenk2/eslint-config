@@ -9,7 +9,7 @@ export default [
 
   ...VueTypescriptConfig({
     // https://typescript-eslint.io/users/configs#recommended-configurations
-    extends: ['recommendedTypeChecked', 'stylistic'],
+    extends: [],
 
     supportedScriptLangs: {
       ts: true,
