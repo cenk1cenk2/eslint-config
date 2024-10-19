@@ -1,3 +1,10 @@
+## [3.1.2](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.1...v3.1.2) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration with the file types ([42843c9](https://gitlab.kilic.dev/config/eslint-config/commit/42843c90630c15223f53c246ceb69532d093cc53))
+
 ## [3.1.1](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.0...v3.1.1) (2024-10-19)
 
 
