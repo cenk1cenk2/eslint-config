@@ -1,8 +1,8 @@
-import base from './base.js'
+import ConfigJavascript from './javascript.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...base,
+  ...ConfigJavascript,
   {
     files: ['**/*.js']
   }

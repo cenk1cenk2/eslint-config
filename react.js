@@ -1,8 +1,8 @@
-import base from './base.js'
+import js from './js.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...base,
+  ...js,
   {
     files: ['**/*.jsx', '**/*.tsx'],
     plugins: ['react', 'react-hooks'],

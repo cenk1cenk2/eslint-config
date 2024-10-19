@@ -1,16 +1,14 @@
-import StylisticPlugin from '@stylistic/eslint-plugin'
 import TypescriptEslintPlugin from '@typescript-eslint/eslint-plugin'
 import TypescriptEslint from 'typescript-eslint'
-import base from './base.js'
+import ConfigJavascript from './javascript.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...base,
+  ...ConfigJavascript,
   ...TypescriptEslint.configs.recommended,
   {
     files: ['**/*.ts', '**/*.tsx'],
     plugins: {
-      stylestic: StylisticPlugin,
       '@typescript-eslint': TypescriptEslintPlugin
     },
     rules: {

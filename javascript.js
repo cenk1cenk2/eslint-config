@@ -1,13 +1,13 @@
-import js from '@eslint/js'
+import JavascriptPlugin from '@eslint/js'
 import StylisticPlugin from '@stylistic/eslint-plugin'
 
-import imports from './import.js'
+import ConfigImports from './import.js'
 import { EXTENSIONS } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  js.configs.recommended,
-  ...imports,
+  JavascriptPlugin.configs.recommended,
+  ...ConfigImports,
   {
     files: [...EXTENSIONS],
     languageOptions: {

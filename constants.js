@@ -1,1 +1,1 @@
-export const EXTENSIONS = ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.ts', '**/*.mts', '**/*.cts', '**/*.jsx', '**/*.tsx']
+export const EXTENSIONS = ['**/*.js', '**/*.mjs', '**/*.cjs', '**/*.ts', '**/*.mts', '**/*.cts', '**/*.jsx', '**/*.tsx', '**/*.vue', '**/*.svelte']

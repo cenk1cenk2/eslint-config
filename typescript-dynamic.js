@@ -1,10 +1,10 @@
-import typescript from './typescript.js'
+import ConfigTypescript from './typescript.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...typescript,
+  ...ConfigTypescript,
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/*.ts', '**/*.tsx', '**/*.vue', '**/*.svelte'],
     languageOptions: {
       parserOptions: {
         project: 'tsconfig.json'
