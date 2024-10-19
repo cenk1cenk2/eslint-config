@@ -4,8 +4,9 @@ import ConfigTypescript from './typescript.js'
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...ConfigTypescript,
+
   {
-    name: 'cenk1cenk2/typescript-dynamic/recommended',
+    name: 'cenk1cenk2/typescript/dynamic',
     files: [...EXTENSIONS_TYPESCRIPT],
     languageOptions: {
       parserOptions: {
@@ -26,7 +27,7 @@ export default [
           disallowTypeAnnotations: true
         }
       ],
-      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false }]
+      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false } ]
     }
   }
 ]

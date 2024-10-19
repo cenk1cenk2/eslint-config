@@ -1,12 +1,16 @@
 import JavascriptPlugin from '@eslint/js'
 import StylisticPlugin from '@stylistic/eslint-plugin'
+import TypescriptEslint from 'typescript-eslint'
+import { EXTENSIONS_JAVASCRIPT, EXTENSIONS } from './constants.js'
 
 import ConfigImports from './import.js'
-import { EXTENSIONS } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  JavascriptPlugin.configs.recommended,
+  {
+    name: 'recommended',
+    ...JavascriptPlugin.configs.recommended
+  },
 
   ...ConfigImports,
 
@@ -33,8 +37,8 @@ export default [
       'stylistic/linebreak-style': ['error', 'unix'],
       'sort-imports': 'off',
       'stylistic/indent': ['error', 2],
-      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
-      'stylistic/comma-spacing': ['error', { before: false, after: true }],
+      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true } ],
+      'stylistic/comma-spacing': ['error', { before: false, after: true } ],
       'stylistic/func-call-spacing': ['error', 'never'],
       'stylistic/max-len': [
         'error',
@@ -153,5 +157,10 @@ export default [
         }
       ]
     }
+  },
+
+  {
+    ...TypescriptEslint.configs.disableTypeChecked,
+    files: [...EXTENSIONS_JAVASCRIPT]
   }
 ]
