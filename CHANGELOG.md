@@ -1,3 +1,10 @@
+## [3.1.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.3...v3.1.4) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration for linting vue ([ae76bbd](https://gitlab.kilic.dev/config/eslint-config/commit/ae76bbda62bea70a18fea28d3c1446e67da08872))
+
 ## [3.1.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.2...v3.1.3) (2024-10-19)
 
 
