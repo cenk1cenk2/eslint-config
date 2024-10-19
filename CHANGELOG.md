@@ -1,3 +1,10 @@
+## [3.1.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.5...v3.1.6) (2024-10-19)
+
+
+### Bug Fixes
+
+* update vue indent style ([7cd6cf4](https://gitlab.kilic.dev/config/eslint-config/commit/7cd6cf47f0f49eb043d2211f675d1e4f7c506a59))
+
 ## [3.1.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.4...v3.1.5) (2024-10-19)
 
 
