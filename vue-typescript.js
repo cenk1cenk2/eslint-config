@@ -19,11 +19,7 @@ export default [
     }
   }),
 
-  ...ConfigTypescript.map((config) => {
-    config.files = [...(config.files ?? []), ...EXTENSIONS_VUE]
-
-    return config
-  }),
+  ...ConfigTypescript,
 
   {
     name: 'cenk1cenk2/vue/typescript/recommended',

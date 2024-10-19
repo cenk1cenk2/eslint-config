@@ -9,11 +9,7 @@ import ConfigTypescript from './typescript-dynamic.js'
 export default [
   ...SveltePlugin.configs['flat/recommended'],
 
-  ...ConfigTypescript.map((config) => {
-    config.files = [...(config.files ?? []), ...EXTENSIONS_SVELTE]
-
-    return config
-  }),
+  ...ConfigTypescript,
 
   {
     name: 'cenk1cenk2/svelte/typescript/recommended',
