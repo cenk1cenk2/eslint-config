@@ -1,3 +1,10 @@
+## [3.0.16](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.15...v3.0.16) (2024-10-19)
+
+
+### Bug Fixes
+
+* update vue rules ([bd0210a](https://gitlab.kilic.dev/config/eslint-config/commit/bd0210ab2000b7e31b2d023e13f0afc3107a5ea1))
+
 ## [3.0.15](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.14...v3.0.15) (2024-10-19)
 
 
