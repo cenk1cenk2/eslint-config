@@ -15,7 +15,8 @@ Some specific linting rules for my use case.
 ## Rules
 
 ```javascript
-module.exports = {
-  extends: ['@cenk1cenk2/eslint-config']
-}
+import { configs, utils } from '@cenk1cenk2/eslint-config'
+
+/** @type {import("eslint").Linter.Config[]} */
+export default []
 ```
