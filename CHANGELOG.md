@@ -1,3 +1,183 @@
+## [3.1.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.5...v3.1.6) (2024-10-19)
+
+
+### Bug Fixes
+
+* update vue indent style ([7cd6cf4](https://gitlab.kilic.dev/config/eslint-config/commit/7cd6cf47f0f49eb043d2211f675d1e4f7c506a59))
+
+## [3.1.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.4...v3.1.5) (2024-10-19)
+
+
+### Bug Fixes
+
+* update parsing ([d5d643d](https://gitlab.kilic.dev/config/eslint-config/commit/d5d643de90a76684001d54de7f220f42cbfca3da))
+
+## [3.1.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.3...v3.1.4) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration for linting vue ([ae76bbd](https://gitlab.kilic.dev/config/eslint-config/commit/ae76bbda62bea70a18fea28d3c1446e67da08872))
+
+## [3.1.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.2...v3.1.3) (2024-10-19)
+
+
+### Bug Fixes
+
+* update vue configuration ([d55946f](https://gitlab.kilic.dev/config/eslint-config/commit/d55946f5b71359987b4255bc061a277d7d931d06))
+
+## [3.1.2](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.1...v3.1.2) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration with the file types ([42843c9](https://gitlab.kilic.dev/config/eslint-config/commit/42843c90630c15223f53c246ceb69532d093cc53))
+
+## [3.1.1](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.0...v3.1.1) (2024-10-19)
+
+
+### Bug Fixes
+
+* update extensions configuration ([38d5a15](https://gitlab.kilic.dev/config/eslint-config/commit/38d5a154ef27b3b9ec2da2e412287cd73fb0140a))
+
+# [3.1.0](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.16...v3.1.0) (2024-10-19)
+
+
+### Features
+
+* handle problems with dynamic imports ([3b41c94](https://gitlab.kilic.dev/config/eslint-config/commit/3b41c94d9cdac82a05197e239d7885df37bb8b3c))
+
+## [3.0.16](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.15...v3.0.16) (2024-10-19)
+
+
+### Bug Fixes
+
+* update vue rules ([bd0210a](https://gitlab.kilic.dev/config/eslint-config/commit/bd0210ab2000b7e31b2d023e13f0afc3107a5ea1))
+
+## [3.0.15](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.14...v3.0.15) (2024-10-19)
+
+
+### Bug Fixes
+
+* update with vue rules ([ac48f80](https://gitlab.kilic.dev/config/eslint-config/commit/ac48f805001b8ede0c46125d61a2488f4b43242e))
+
+## [3.0.14](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.13...v3.0.14) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration ([da8e3cc](https://gitlab.kilic.dev/config/eslint-config/commit/da8e3cc0090897f7428e5646127ef2631ad35f4c))
+
+## [3.0.13](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.12...v3.0.13) (2024-10-19)
+
+
+### Bug Fixes
+
+* update configuration ([8e9bf5e](https://gitlab.kilic.dev/config/eslint-config/commit/8e9bf5eea93348241d6949e38c23836ca7bfd143))
+
+## [3.0.12](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.11...v3.0.12) (2024-10-18)
+
+
+### Bug Fixes
+
+* update ts rules ([889e055](https://gitlab.kilic.dev/config/eslint-config/commit/889e055a7e2561e5ba4a229d9643d3a485383175))
+
+## [3.0.11](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.10...v3.0.11) (2024-10-18)
+
+
+### Bug Fixes
+
+* ignore parser options ([fd1bc7d](https://gitlab.kilic.dev/config/eslint-config/commit/fd1bc7d009eb47b56e0a200b2216958a64027fbc))
+
+## [3.0.10](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.9...v3.0.10) (2024-10-18)
+
+
+### Bug Fixes
+
+* revert the changes ([402e8dc](https://gitlab.kilic.dev/config/eslint-config/commit/402e8dc47af5849781b48e022a0c7708cd9e1595))
+
+## [3.0.9](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.8...v3.0.9) (2024-10-18)
+
+
+### Bug Fixes
+
+* dont provide parser options ([875ddd6](https://gitlab.kilic.dev/config/eslint-config/commit/875ddd61e2ac89597a9953873ac85c32262e709a))
+
+## [3.0.8](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.7...v3.0.8) (2024-10-18)
+
+
+### Bug Fixes
+
+* rename ([43dc785](https://gitlab.kilic.dev/config/eslint-config/commit/43dc7851db713ca766b05f43bffdd1fd210133d2))
+
+## [3.0.7](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.6...v3.0.7) (2024-10-18)
+
+
+### Bug Fixes
+
+* send prettier ([7f4ea79](https://gitlab.kilic.dev/config/eslint-config/commit/7f4ea79f4b81794e46a24c0b944d0c8c045c65e1))
+
+## [3.0.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.5...v3.0.6) (2024-10-18)
+
+
+### Bug Fixes
+
+* update rules ([a219adc](https://gitlab.kilic.dev/config/eslint-config/commit/a219adcb300fc9af31c25e8328497f4671398d1c))
+
+## [3.0.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.4...v3.0.5) (2024-10-18)
+
+
+### Bug Fixes
+
+* push ([4fe0c28](https://gitlab.kilic.dev/config/eslint-config/commit/4fe0c287a5d3e52fac418c61558cd86f1e781762))
+
+## [3.0.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.3...v3.0.4) (2024-10-18)
+
+
+### Bug Fixes
+
+* update typescript plug ([7d71ffe](https://gitlab.kilic.dev/config/eslint-config/commit/7d71ffe0abc9c832aed25e10daf01cf084881e9a))
+
+## [3.0.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.2...v3.0.3) (2024-10-18)
+
+
+### Bug Fixes
+
+* update configuratipn ([d5c8d5d](https://gitlab.kilic.dev/config/eslint-config/commit/d5c8d5de557bf6584701ad9e4c3a48cd6e655e68))
+
+## [3.0.2](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.1...v3.0.2) (2024-10-18)
+
+
+### Bug Fixes
+
+* update ([adf80ab](https://gitlab.kilic.dev/config/eslint-config/commit/adf80ab05309b1ae1c129fd5e63aeca2bd0b1380))
+
+## [3.0.1](https://gitlab.kilic.dev/config/eslint-config/compare/v3.0.0...v3.0.1) (2024-10-18)
+
+
+### Bug Fixes
+
+* update configuration ([9aabf20](https://gitlab.kilic.dev/config/eslint-config/commit/9aabf2067ada855430472e9ebeb475276db3ed24))
+
+# [3.0.0](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.60...v3.0.0) (2024-10-18)
+
+
+### Performance Improvements
+
+* update ([b66a01b](https://gitlab.kilic.dev/config/eslint-config/commit/b66a01bdeae267a9bd8629302c965c1a79b436a2))
+
+
+### BREAKING CHANGES
+
+* requires eslint9
+
+## [2.7.60](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.59...v2.7.60) (2024-10-18)
+
+
+### Performance Improvements
+
+* update with new methodology on eslint9 ([9b96609](https://gitlab.kilic.dev/config/eslint-config/commit/9b9660906d6a2a816e64e496e9e76a309fd3383a))
+
 ## [2.7.59](https://gitlab.kilic.dev/config/eslint-config/compare/v2.7.58...v2.7.59) (2024-10-03)
 
 

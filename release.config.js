@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   branches: [
     'main',
     'master',
@@ -29,7 +29,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: [ 'CHANGELOG.md', 'README.md', 'yarn.lock', 'package.json' ]
+        assets: ['CHANGELOG.md', 'README.md', 'yarn.lock', 'package.json']
       }
     ],
     '@semantic-release/gitlab'
