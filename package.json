@@ -76,7 +76,7 @@
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "simple-git-hooks": "^2.11.1",
-    "svelte": "^5.1.15"
+    "svelte": "^5.1.16"
   },
   "config": {
     "commitizen": {
