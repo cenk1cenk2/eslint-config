@@ -1,3 +1,10 @@
+## [3.1.10](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.9...v3.1.10) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @stylistic/eslint-plugin to ^2.11.0 ([01946c7](https://gitlab.kilic.dev/config/eslint-config/commit/01946c75ef9ea361f2592e4b98205b0a86e3d936))
+
 ## [3.1.9](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.8...v3.1.9) (2024-11-18)
 
 
