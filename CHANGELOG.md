@@ -1,3 +1,11 @@
+## [3.1.14](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.13...v3.1.14) (2024-12-12)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates ([46f93fd](https://gitlab.kilic.dev/config/eslint-config/commit/46f93fdb02be7f737d85d3cf6be75072584ce1c4))
+* issues with globals ([d57b539](https://gitlab.kilic.dev/config/eslint-config/commit/d57b539f9b9323a7a65120b21c7c7e2ebc37fcf3))
+
 ## [3.1.13](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.12...v3.1.13) (2024-12-04)
 
 
