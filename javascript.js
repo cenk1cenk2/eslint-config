@@ -4,6 +4,7 @@ import TypescriptEslint from 'typescript-eslint'
 import { EXTENSIONS_JAVASCRIPT, EXTENSIONS } from './constants.js'
 
 import ConfigImports from './import.js'
+import { globals } from './index.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
@@ -19,9 +20,9 @@ export default [
     files: [...EXTENSIONS],
     languageOptions: {
       globals: {
-        browser: true,
-        es6: true,
-        node: true
+        ...globals.node,
+        ...globals.es2020,
+        ...globals.browser
       },
       parserOptions: {
         createDefaultProgram: true,
