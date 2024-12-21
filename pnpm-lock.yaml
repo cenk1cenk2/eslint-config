@@ -15,10 +15,10 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.18.0
+        specifier: ^8.18.1
         version: 8.18.1(@typescript-eslint/parser@8.18.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
       '@typescript-eslint/parser':
-        specifier: ^8.18.0
+        specifier: ^8.18.1
         version: 8.18.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
       eslint-config-react:
         specifier: '>= 1'
@@ -33,7 +33,7 @@ importers:
         specifier: '>= 2'
         version: 2.46.1(eslint@9.17.0(jiti@2.4.2))(svelte@5.15.0)
       globals:
-        specifier: ^15.13.0
+        specifier: ^15.14.0
         version: 15.14.0
       load-tsconfig:
         specifier: ^0.2.5
@@ -42,7 +42,7 @@ importers:
         specifier: '>= 0.26.0'
         version: 0.43.0(svelte@5.15.0)
       typescript-eslint:
-        specifier: ^8.18.0
+        specifier: ^8.18.1
         version: 8.18.1(eslint@9.17.0(jiti@2.4.2))(typescript@5.7.2)
     devDependencies:
       '@cenk1cenk2/cz-cc':
