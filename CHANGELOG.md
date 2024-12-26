@@ -1,3 +1,10 @@
+## [3.1.17](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.16...v3.1.17) (2024-12-26)
+
+
+### Bug Fixes
+
+* update rules ([91872e1](https://gitlab.kilic.dev/config/eslint-config/commit/91872e12f611d2845a0692aa5ece86b7caae50ad))
+
 ## [3.1.16](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.15...v3.1.16) (2024-12-21)
 
 
