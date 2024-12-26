@@ -38,8 +38,8 @@ export default [
       'stylistic/linebreak-style': ['error', 'unix'],
       'sort-imports': 'off',
       'stylistic/indent': ['error', 2],
-      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true } ],
-      'stylistic/comma-spacing': ['error', { before: false, after: true } ],
+      'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
+      'stylistic/comma-spacing': ['error', { before: false, after: true }],
       'stylistic/func-call-spacing': ['error', 'never'],
       'stylistic/max-len': [
         'error',
@@ -79,14 +79,7 @@ export default [
       'stylistic/comma-dangle': ['error', 'never'],
       'stylistic/array-element-newline': ['error', 'consistent'],
       'stylistic/array-bracket-newline': ['error', 'consistent'],
-      'stylistic/array-bracket-spacing': [
-        'error',
-        'never',
-        {
-          objectsInArrays: true,
-          arraysInArrays: true
-        }
-      ],
+      'stylistic/array-bracket-spacing': ['error', 'never'],
       curly: ['error', 'all'],
       complexity: ['error', 25],
       'dot-notation': 'error',
