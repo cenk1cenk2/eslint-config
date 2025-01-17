@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@cenk1cenk2/cz-cc':
         specifier: ^1.8.0
-        version: 1.8.0(@types/node@22.10.6)(typescript@5.7.3)
+        version: 1.8.0(@types/node@22.10.7)(typescript@5.7.3)
       '@vue/eslint-config-typescript':
         specifier: ^14.3.0
         version: 14.3.0(eslint-plugin-vue@9.32.0(eslint@9.18.0(jiti@2.4.2)))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
@@ -219,8 +219,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.10.6':
-    resolution: {integrity: sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==}
+  '@types/node@22.10.7':
+    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
 
   '@typescript-eslint/eslint-plugin@8.20.0':
     resolution: {integrity: sha512-naduuphVw5StFfqp4Gq4WhIBE2gN1GEmMUExpJYknZJdRnc+2gDzB8Z3+5+/Kv33hPQRDGzQO/0opHE72lZZ6A==}
@@ -1865,10 +1865,10 @@ snapshots:
   '@babel/helper-validator-identifier@7.25.9':
     optional: true
 
-  '@cenk1cenk2/cz-cc@1.8.0(@types/node@22.10.6)(typescript@5.7.3)':
+  '@cenk1cenk2/cz-cc@1.8.0(@types/node@22.10.7)(typescript@5.7.3)':
     dependencies:
       '@listr2/prompt-adapter-enquirer': 2.0.12(enquirer@2.4.1)
-      commitizen: 4.3.1(@types/node@22.10.6)(typescript@5.7.3)
+      commitizen: 4.3.1(@types/node@22.10.7)(typescript@5.7.3)
       conventional-commit-types: 3.0.0
       enquirer: 2.4.1
       external-editor: 3.1.0
@@ -1887,7 +1887,7 @@ snapshots:
   '@commitlint/execute-rule@19.5.0':
     optional: true
 
-  '@commitlint/load@19.6.1(@types/node@22.10.6)(typescript@5.7.3)':
+  '@commitlint/load@19.6.1(@types/node@22.10.7)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -1895,7 +1895,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.7.3)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.10.6)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@22.10.7)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2024,7 +2024,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 22.10.6
+      '@types/node': 22.10.7
     optional: true
 
   '@types/estree@1.0.6': {}
@@ -2033,7 +2033,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.10.6':
+  '@types/node@22.10.7':
     dependencies:
       undici-types: 6.20.0
     optional: true
@@ -2339,10 +2339,10 @@ snapshots:
 
   commander@12.1.0: {}
 
-  commitizen@4.3.1(@types/node@22.10.6)(typescript@5.7.3):
+  commitizen@4.3.1(@types/node@22.10.7)(typescript@5.7.3):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@22.10.6)(typescript@5.7.3)
+      cz-conventional-changelog: 3.3.0(@types/node@22.10.7)(typescript@5.7.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -2363,9 +2363,9 @@ snapshots:
 
   conventional-commit-types@3.0.0: {}
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@22.10.6)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@22.10.7)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 22.10.6
+      '@types/node': 22.10.7
       cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 2.4.2
       typescript: 5.7.3
@@ -2389,16 +2389,16 @@ snapshots:
 
   cssesc@3.0.0: {}
 
-  cz-conventional-changelog@3.3.0(@types/node@22.10.6)(typescript@5.7.3):
+  cz-conventional-changelog@3.3.0(@types/node@22.10.7)(typescript@5.7.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.1(@types/node@22.10.6)(typescript@5.7.3)
+      commitizen: 4.3.1(@types/node@22.10.7)(typescript@5.7.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.6.1(@types/node@22.10.6)(typescript@5.7.3)
+      '@commitlint/load': 19.6.1(@types/node@22.10.7)(typescript@5.7.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
