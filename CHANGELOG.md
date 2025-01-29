@@ -1,3 +1,10 @@
+## [3.1.24](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.23...v3.1.24) (2025-01-29)
+
+
+### Bug Fixes
+
+* **deps:** update all minor dependency updates to ^8.22.0 ([43b935e](https://gitlab.kilic.dev/config/eslint-config/commit/43b935ec213fc88bd21cf0d186886dca0423ef89))
+
 ## [3.1.23](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.22...v3.1.23) (2025-01-24)
 
 
