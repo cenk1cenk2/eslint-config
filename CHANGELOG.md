@@ -1,3 +1,10 @@
+## [3.1.26](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.25...v3.1.26) (2025-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @eslint/js to ^9.20.0 ([f475f30](https://gitlab.kilic.dev/config/eslint-config/commit/f475f304e3a42ed743bb9915c6a6bacc4cda860a))
+
 ## [3.1.25](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.24...v3.1.25) (2025-02-05)
 
 
