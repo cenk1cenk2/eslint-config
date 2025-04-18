@@ -31,7 +31,7 @@ importers:
         version: 5.2.0(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-svelte:
         specifier: '>= 2'
-        version: 3.5.1(eslint@9.24.0(jiti@2.4.2))(svelte@5.27.3)
+        version: 3.5.1(eslint@9.24.0(jiti@2.4.2))(svelte@5.28.0)
       globals:
         specifier: ^15.15.0
         version: 15.15.0
@@ -40,7 +40,7 @@ importers:
         version: 0.2.5
       svelte-eslint-parser:
         specifier: '>= 0.26.0'
-        version: 1.1.2(svelte@5.27.3)
+        version: 1.1.2(svelte@5.28.0)
       typescript-eslint:
         specifier: ^8.30.1
         version: 8.30.1(eslint@9.24.0(jiti@2.4.2))(typescript@5.8.3)
@@ -67,8 +67,8 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1
       svelte:
-        specifier: ^5.27.3
-        version: 5.27.3
+        specifier: ^5.28.0
+        version: 5.28.0
 
 packages:
 
@@ -1707,8 +1707,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.27.3:
-    resolution: {integrity: sha512-MK16NUEFwAunCkdJpIIJ6hvKElx0zFlKMqQd7NAIugMfrL0YeOH8VEn5pg9g2Q6RLj2JrGJL6c0zaAwmXx/nHQ==}
+  svelte@5.28.0:
+    resolution: {integrity: sha512-tTpcsth5fEP+3+plDWPSsqMC9qXxsC+UREchvhDCUPDtDFxKB444LhBpVY1fXeR5TCbFzRh0Muif/hg98rNQcw==}
     engines: {node: '>=18'}
 
   through@2.3.8:
@@ -2645,7 +2645,7 @@ snapshots:
     dependencies:
       eslint: 9.24.0(jiti@2.4.2)
 
-  eslint-plugin-svelte@3.5.1(eslint@9.24.0(jiti@2.4.2))(svelte@5.27.3):
+  eslint-plugin-svelte@3.5.1(eslint@9.24.0(jiti@2.4.2))(svelte@5.28.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0(jiti@2.4.2))
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -2656,9 +2656,9 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.3)
       postcss-safe-parser: 7.0.1(postcss@8.5.3)
       semver: 7.7.1
-      svelte-eslint-parser: 1.1.2(svelte@5.27.3)
+      svelte-eslint-parser: 1.1.2(svelte@5.28.0)
     optionalDependencies:
-      svelte: 5.27.3
+      svelte: 5.28.0
     transitivePeerDependencies:
       - ts-node
 
@@ -3733,7 +3733,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-eslint-parser@1.1.2(svelte@5.27.3):
+  svelte-eslint-parser@1.1.2(svelte@5.28.0):
     dependencies:
       eslint-scope: 8.3.0
       eslint-visitor-keys: 4.2.0
@@ -3742,9 +3742,9 @@ snapshots:
       postcss-scss: 4.0.9(postcss@8.5.3)
       postcss-selector-parser: 7.1.0
     optionalDependencies:
-      svelte: 5.27.3
+      svelte: 5.28.0
 
-  svelte@5.27.3:
+  svelte@5.28.0:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
