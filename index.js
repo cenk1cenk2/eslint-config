@@ -3,6 +3,7 @@ import ConfigImport from './import.js'
 import ConfigJavascript from './javascript.js'
 import ConfigTypescriptDynamic from './typescript-dynamic.js'
 import ConfigTypescript from './typescript.js'
+import ConfigSvelteTypescript from './svelte-typescript.js'
 import * as utils from './utils.js'
 import * as constants from './constants.js'
 import * as globals from 'globals'
@@ -12,7 +13,8 @@ export const configs = {
   ['import']: ConfigImport,
   ['import-strict']: ConfigImportStrict,
   ['typescript']: ConfigTypescript,
-  ['typescript-dynamic']: ConfigTypescriptDynamic
+  ['typescript-dynamic']: ConfigTypescriptDynamic,
+  ['svelte-typescript']: ConfigSvelteTypescript
 }
 
 export { utils, constants, globals }

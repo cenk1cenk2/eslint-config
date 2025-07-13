@@ -4,7 +4,7 @@ import TypescriptEslint from 'typescript-eslint'
 import { EXTENSIONS_JAVASCRIPT, EXTENSIONS } from './constants.js'
 
 import ConfigImports from './import.js'
-import { globals } from './index.js'
+import * as globals from 'globals'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
@@ -40,7 +40,7 @@ export default [
       'stylistic/indent': ['error', 2],
       'stylistic/brace-style': ['error', '1tbs', { allowSingleLine: true }],
       'stylistic/comma-spacing': ['error', { before: false, after: true }],
-      'stylistic/func-call-spacing': ['error', 'never'],
+      'stylistic/function-call-spacing': ['error', 'never'],
       'stylistic/max-len': [
         'error',
         {

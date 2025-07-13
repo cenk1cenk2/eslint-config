@@ -27,7 +27,7 @@ export default [
           disallowTypeAnnotations: true
         }
       ],
-      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false } ]
+      '@typescript-eslint/consistent-type-exports': ['error', { fixMixedExportsWithInlineTypeSpecifier: false }]
     }
   }
 ]
