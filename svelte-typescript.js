@@ -1,6 +1,7 @@
 import TypescriptParser from '@typescript-eslint/parser'
 import SveltePlugin from 'eslint-plugin-svelte'
 import SvelteParser from 'svelte-eslint-parser'
+import * as globals from 'globals'
 
 import { EXTENSIONS_SVELTE } from './constants.js'
 import ConfigTypescript from './typescript-dynamic.js'
@@ -19,6 +20,10 @@ export default [
       parserOptions: {
         parser: TypescriptParser,
         extraFileExtensions: ['.svelte']
+      },
+      globals: {
+        ...globals.es2020,
+        ...globals.browser
       }
     },
     rules: {
