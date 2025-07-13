@@ -1,3 +1,10 @@
+## [3.1.53](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.52...v3.1.53) (2025-07-13)
+
+
+### Bug Fixes
+
+* add globals to svelte configuration ([dca5b5e](https://gitlab.kilic.dev/config/eslint-config/commit/dca5b5e6c71f86ee9c9b77e0b4fa176c2a059077))
+
 ## [3.1.52](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.51...v3.1.52) (2025-07-13)
 
 
