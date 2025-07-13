@@ -23,6 +23,7 @@ export default [
       },
       globals: {
         ...globals.es2020,
+        ...globals.node,
         ...globals.browser
       }
     },
