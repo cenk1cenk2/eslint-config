@@ -1,3 +1,10 @@
+## [3.1.54](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.53...v3.1.54) (2025-07-13)
+
+
+### Bug Fixes
+
+* update globals ([3241cb3](https://gitlab.kilic.dev/config/eslint-config/commit/3241cb31c93e85d56959e3a03614d0b3db60a91e))
+
 ## [3.1.53](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.52...v3.1.53) (2025-07-13)
 
 
