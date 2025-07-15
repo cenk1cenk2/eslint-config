@@ -1,3 +1,10 @@
+## [3.1.55](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.54...v3.1.55) (2025-07-15)
+
+
+### Bug Fixes
+
+* change export configuration ([c60143c](https://gitlab.kilic.dev/config/eslint-config/commit/c60143ceb470a939978506904c749c240bc5a3c8))
+
 ## [3.1.54](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.53...v3.1.54) (2025-07-13)
 
 
