@@ -10,6 +10,8 @@
   "exports": {
     ".": "./index.js",
     "./vue": "./vue.js",
+    "./vue-typescript": "./vue-typescript.js",
+    "./svelte-typescript": "./svelte-typescript.js",
     "./prettierrc": "./.prettierrc.js"
   },
   "scripts": {
