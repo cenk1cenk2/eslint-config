@@ -1,3 +1,10 @@
+## [3.1.59](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.58...v3.1.59) (2025-07-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @stylistic/eslint-plugin to ^5.2.2 ([aaf088e](https://gitlab.kilic.dev/config/eslint-config/commit/aaf088e33d0e01e3b34f8e0437f5df04f5d2d6ef))
+
 ## [3.1.58](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.57...v3.1.58) (2025-07-21)
 
 
