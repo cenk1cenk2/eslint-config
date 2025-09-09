@@ -1,3 +1,10 @@
+## [3.1.69](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.68...v3.1.69) (2025-09-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to ^16.4.0 ([c47aa65](https://gitlab.kilic.dev/config/eslint-config/commit/c47aa659e6ea6d93d6a52532f0f0f7ccfc6cf44b))
+
 ## [3.1.68](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.67...v3.1.68) (2025-09-08)
 
 
