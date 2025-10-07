@@ -68,7 +68,7 @@ importers:
         version: 2.13.1
       svelte:
         specifier: ^5.38.8
-        version: 5.39.9
+        version: 5.39.10
 
 packages:
 
@@ -1916,6 +1916,10 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte@5.39.10:
+    resolution: {integrity: sha512-Q3gqCGIgl4r0CR7OaWYjVo22nqFmLLSfn1MiWNFaITamvqhGBD3kyqk51EKuO4Nd1z8QliO5KIz7a2Ka9Rxilw==}
+    engines: {node: '>=18'}
 
   svelte@5.39.9:
     resolution: {integrity: sha512-sVOie0sbU9F/Lh0IoUfaq9hLzujRKxiL7xTMbG0y8ROx/qErtbfmm6sLSlJUbUMW4NcIgqHQPFiHX4LakA8fzA==}
@@ -4196,6 +4200,23 @@ snapshots:
     optionalDependencies:
       svelte: 5.39.9
 
+  svelte@5.39.10:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      '@jridgewell/sourcemap-codec': 1.5.5
+      '@sveltejs/acorn-typescript': 1.0.6(acorn@8.15.0)
+      '@types/estree': 1.0.8
+      acorn: 8.15.0
+      aria-query: 5.3.2
+      axobject-query: 4.1.0
+      clsx: 2.1.1
+      esm-env: 1.2.2
+      esrap: 2.1.0
+      is-reference: 3.0.3
+      locate-character: 3.0.0
+      magic-string: 0.30.19
+      zimmerframe: 1.1.4
+
   svelte@5.39.9:
     dependencies:
       '@jridgewell/remapping': 2.3.5
@@ -4212,6 +4233,7 @@ snapshots:
       locate-character: 3.0.0
       magic-string: 0.30.19
       zimmerframe: 1.1.4
+    optional: true
 
   through@2.3.8: {}
 
