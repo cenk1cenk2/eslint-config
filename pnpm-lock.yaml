@@ -68,7 +68,7 @@ importers:
         version: 2.13.1
       svelte:
         specifier: ^5.38.8
-        version: 5.43.10
+        version: 5.43.11
 
 packages:
 
@@ -1923,8 +1923,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.43.10:
-    resolution: {integrity: sha512-7mkxF1xU+9VRowZA+6fY6qy2kVnS2U3gDtHV2V+aoqZaIagiXXuUR0WHzblw/GwQVXnTNXSvfh2/s5dNNv4AQw==}
+  svelte@5.43.11:
+    resolution: {integrity: sha512-jrAtflQFbCpaPS6BFDw/zz5W2BK0q3qXmnKX8vWuf5gaPuMefFh9zGIWFm2tDdmeK61rP+tF5rAx0V+C3Z7A3g==}
     engines: {node: '>=18'}
 
   svelte@5.43.9:
@@ -4212,7 +4212,7 @@ snapshots:
     optionalDependencies:
       svelte: 5.43.9
 
-  svelte@5.43.10:
+  svelte@5.43.11:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
