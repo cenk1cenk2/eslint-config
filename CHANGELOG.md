@@ -1,3 +1,10 @@
+## [3.1.70](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.69...v3.1.70) (2026-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency globals to v17 ([44ebbb2](https://gitlab.kilic.dev/config/eslint-config/commit/44ebbb299088eb32c32da68905e647e25f69d929))
+
 ## [3.1.69](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.68...v3.1.69) (2025-09-09)
 
 
