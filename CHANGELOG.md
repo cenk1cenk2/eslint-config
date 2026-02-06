@@ -1,3 +1,10 @@
+## [3.1.71](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.70...v3.1.71) (2026-02-06)
+
+
+### Bug Fixes
+
+* update prettier configuration ([fa3ade4](https://gitlab.kilic.dev/config/eslint-config/commit/fa3ade4709f6b9eb6c9cbbd6d61d87e493e09e30))
+
 ## [3.1.70](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.69...v3.1.70) (2026-01-07)
 
 
