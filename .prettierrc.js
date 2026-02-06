@@ -10,6 +10,14 @@ export default {
   trailingComma: 'none',
   bracketSpacing: true,
   arrowParens: 'always',
-  proseWrap: 'never',
-  endOfLine: 'lf'
+  proseWrap: 'preserve',
+  endOfLine: 'lf',
+  overrides: [
+    {
+      files: ['*.md'],
+      options: {
+        proseWrap: 'never'
+      }
+    }
+  ]
 }
