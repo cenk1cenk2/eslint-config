@@ -74,10 +74,10 @@
   "devDependencies": {
     "@cenk1cenk2/cz-cc": "^2.1.5",
     "@vue/eslint-config-typescript": "^14.6.0",
-    "eslint": "^9.35.0",
-    "eslint-plugin-vue": "^10.4.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-vue": "^10.7.0",
     "lint-staged": "^16.1.6",
-    "prettier": "^3.6.2",
+    "prettier": "^3.8.1",
     "simple-git-hooks": "^2.13.1",
     "svelte": "^5.38.8"
   },
