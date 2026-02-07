@@ -46,7 +46,7 @@ importers:
         version: 8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     devDependencies:
       '@cenk1cenk2/cz-cc':
-        specifier: ^2.1.5
+        specifier: ^2.2.2
         version: 2.2.2(@types/node@25.2.1)(typescript@5.9.3)
       '@vue/eslint-config-typescript':
         specifier: ^14.6.0
@@ -58,7 +58,7 @@ importers:
         specifier: ^10.7.0
         version: 10.7.0(@stylistic/eslint-plugin@5.7.1(eslint@9.39.2(jiti@2.6.1)))(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(vue-eslint-parser@10.2.0(eslint@9.39.2(jiti@2.6.1)))
       lint-staged:
-        specifier: ^16.1.6
+        specifier: ^16.2.7
         version: 16.2.7
       prettier:
         specifier: ^3.8.1
@@ -67,7 +67,7 @@ importers:
         specifier: ^2.13.1
         version: 2.13.1
       svelte:
-        specifier: ^5.38.8
+        specifier: ^5.50.0
         version: 5.50.0
 
 packages:
