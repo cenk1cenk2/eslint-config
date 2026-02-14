@@ -46,8 +46,8 @@ importers:
         version: 8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
     devDependencies:
       '@cenk1cenk2/cz-cc':
-        specifier: ^2.2.3
-        version: 2.2.3(@types/node@25.2.3)(typescript@5.9.3)
+        specifier: ^2.2.4
+        version: 2.2.4(@types/node@25.2.3)(typescript@5.9.3)
       '@vue/eslint-config-typescript':
         specifier: ^14.6.0
         version: 14.6.0(eslint-plugin-vue@10.8.0(@stylistic/eslint-plugin@5.8.0(eslint@9.39.2(jiti@2.6.1)))(@typescript-eslint/parser@8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@9.39.2(jiti@2.6.1))))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -139,8 +139,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@cenk1cenk2/cz-cc@2.2.3':
-    resolution: {integrity: sha512-5haKAyT7xPogxIHuJXt9xSNxunidDlq4y/ZYZjxwaQHr+8p3EOrJQNAaFm07tG6cpl3mlJxMK07tPMBRAQ51Eg==}
+  '@cenk1cenk2/cz-cc@2.2.4':
+    resolution: {integrity: sha512-3dDuoXUSTXSV7d+ciQ+e8+2bgyrp6MJUHxvojZxXz5zWSbG6n39lCaPucnLsv3XP9p9MThGJz2C2sfMhPmZPgw==}
     engines: {node: '>= 22'}
 
   '@commitlint/config-validator@20.4.0':
@@ -2249,7 +2249,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@cenk1cenk2/cz-cc@2.2.3(@types/node@25.2.3)(typescript@5.9.3)':
+  '@cenk1cenk2/cz-cc@2.2.4(@types/node@25.2.3)(typescript@5.9.3)':
     dependencies:
       '@inquirer/prompts': 8.2.1(@types/node@25.2.3)
       '@listr2/prompt-adapter-inquirer': 4.1.0(@inquirer/prompts@8.2.1(@types/node@25.2.3))(@types/node@25.2.3)(listr2@10.1.0)
