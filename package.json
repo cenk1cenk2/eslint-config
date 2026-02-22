@@ -72,7 +72,7 @@
     "typescript-eslint": "^8.56.0"
   },
   "devDependencies": {
-    "@cenk1cenk2/cz-cc": "^2.2.4",
+    "@cenk1cenk2/cz-cc": "^2.2.5",
     "@vue/eslint-config-typescript": "^14.7.0",
     "eslint": "^10.0.1",
     "eslint-plugin-vue": "^10.8.0",
