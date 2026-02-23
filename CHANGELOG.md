@@ -1,3 +1,10 @@
+# [3.2.0](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.75...v3.2.0) (2026-02-23)
+
+
+### Features
+
+* update to eslint10 ([c37a7f0](https://gitlab.kilic.dev/config/eslint-config/commit/c37a7f0070c1fa879071f4d2196a4493e20aebd0))
+
 ## [3.1.75](https://gitlab.kilic.dev/config/eslint-config/compare/v3.1.74...v3.1.75) (2026-02-19)
 
 
