@@ -9,7 +9,9 @@
   "type": "module",
   "exports": {
     ".": "./index.js",
+    "./svelte": "./svelte.js",
     "./vue": "./vue.js",
+    "./react": "./react.js",
     "./vue-typescript": "./vue-typescript.js",
     "./svelte-typescript": "./svelte-typescript.js",
     "./prettierrc": "./.prettierrc.js"
@@ -35,7 +37,7 @@
   "peerDependencies": {
     "@vue/eslint-config-typescript": ">= 14.1.1",
     "eslint": ">= 9",
-    "eslint-config-react": ">= 1",
+    "eslint-plugin-react": ">= 7",
     "eslint-plugin-react-hooks": ">= 4",
     "eslint-plugin-svelte": ">= 2",
     "eslint-plugin-vue": ">= 9",
@@ -48,7 +50,7 @@
     "eslint-plugin-vue": {
       "optional": true
     },
-    "eslint-config-react": {
+    "eslint-plugin-react": {
       "optional": true
     },
     "eslint-plugin-react-hooks": {
@@ -64,12 +66,12 @@
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/eslint-plugin": "^8.56.0",
-    "@typescript-eslint/parser": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.3.0",
     "load-tsconfig": "^0.2.5",
-    "typescript-eslint": "^8.56.0"
+    "typescript-eslint": "^8.56.1"
   },
   "devDependencies": {
     "@cenk1cenk2/cz-cc": "^2.2.5",

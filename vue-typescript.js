@@ -1,7 +1,6 @@
 import VueTypescriptConfig from '@vue/eslint-config-typescript'
 import VuePlugin from 'eslint-plugin-vue'
 import { EXTENSIONS_VUE } from './constants.js'
-import ConfigTypescript from './typescript-dynamic.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
@@ -18,8 +17,6 @@ export default [
       js: false
     }
   }),
-
-  ...ConfigTypescript,
 
   {
     name: 'cenk1cenk2/vue/typescript/recommended',

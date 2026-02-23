@@ -1,13 +1,16 @@
+import ReactPlugin from 'eslint-plugin-react'
+import ReactHooksPlugin from 'eslint-plugin-react-hooks'
 import react from './react.js'
-import typescript from './typescript.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...typescript,
   ...react,
   {
     files: ['**/*.tsx'],
-    plugins: ['react', 'react-hooks'],
+    plugins: {
+      react: ReactPlugin,
+      'react-hooks': /** @type {import("eslint").ESLint.Plugin} */ (ReactHooksPlugin)
+    },
     rules: {
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/explicit-function-return-type': 'off',

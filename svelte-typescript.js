@@ -4,13 +4,10 @@ import SvelteParser from 'svelte-eslint-parser'
 import * as globals from 'globals'
 
 import { EXTENSIONS_SVELTE } from './constants.js'
-import ConfigTypescript from './typescript-dynamic.js'
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
   ...SveltePlugin.configs['flat/recommended'],
-
-  ...ConfigTypescript,
 
   {
     name: 'cenk1cenk2/svelte/typescript/recommended',

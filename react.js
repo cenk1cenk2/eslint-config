@@ -1,11 +1,19 @@
-import js from './js.js'
+import ReactPlugin from 'eslint-plugin-react'
+import ReactHooksPlugin from 'eslint-plugin-react-hooks'
+import ConfigReactTypescript from './react-typescript.js'
+
+export const configs = {
+  ['react-typescript']: ConfigReactTypescript
+}
 
 /** @type {import("eslint").Linter.Config[]} */
 export default [
-  ...js,
   {
     files: ['**/*.jsx', '**/*.tsx'],
-    plugins: ['react', 'react-hooks'],
+    plugins: {
+      react: ReactPlugin,
+      ['react-hooks']: /** @type {import("eslint").ESLint.Plugin} */ (ReactHooksPlugin)
+    },
     languageOptions: {
       parserOptions: {
         project: null,
