@@ -31,7 +31,7 @@ importers:
         version: 7.0.1(eslint@10.0.3(jiti@2.6.1))
       eslint-plugin-svelte:
         specifier: '>= 2'
-        version: 3.15.2(eslint@10.0.3(jiti@2.6.1))(svelte@5.53.13)
+        version: 3.15.2(eslint@10.0.3(jiti@2.6.1))(svelte@5.54.0)
       globals:
         specifier: ^17.4.0
         version: 17.4.0
@@ -40,14 +40,14 @@ importers:
         version: 0.2.5
       svelte-eslint-parser:
         specifier: '>= 0.26.0'
-        version: 1.6.0(svelte@5.53.13)
+        version: 1.6.0(svelte@5.54.0)
       typescript-eslint:
         specifier: ^8.57.0
         version: 8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
     devDependencies:
       '@cenk1cenk2/cz-cc':
-        specifier: ^2.2.10
-        version: 2.2.10(@types/node@25.4.0)(typescript@5.9.3)
+        specifier: ^2.2.11
+        version: 2.2.11(@types/node@25.4.0)(typescript@5.9.3)
       '@vue/eslint-config-typescript':
         specifier: ^14.7.0
         version: 14.7.0(eslint-plugin-vue@10.8.0(@stylistic/eslint-plugin@5.10.0(eslint@10.0.3(jiti@2.6.1)))(@typescript-eslint/parser@8.57.0(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.3(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@10.0.3(jiti@2.6.1))))(eslint@10.0.3(jiti@2.6.1))(typescript@5.9.3)
@@ -67,8 +67,8 @@ importers:
         specifier: ^2.13.1
         version: 2.13.1
       svelte:
-        specifier: ^5.53.13
-        version: 5.53.13
+        specifier: ^5.54.0
+        version: 5.54.0
 
 packages:
 
@@ -139,8 +139,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@cenk1cenk2/cz-cc@2.2.10':
-    resolution: {integrity: sha512-hGVQDoHzcdbk6fz9koBl8xPcumZpt5Cn3LuLPNX8LAyE5ush0ezPivVoPJ2K2BRircmYratcphkC2bMcXYjt8w==}
+  '@cenk1cenk2/cz-cc@2.2.11':
+    resolution: {integrity: sha512-sec2w+1wa0zxSrfvkVzBogDfFzPzQo6eyaYnOi3vB74TBfo35CwL2C4fkCITjIuc8S/1XO3GKWWttcSDpkreWw==}
     engines: {node: '>= 22'}
 
   '@commitlint/config-validator@20.4.3':
@@ -343,15 +343,6 @@ packages:
       '@types/node':
         optional: true
 
-  '@inquirer/type@4.0.3':
-    resolution: {integrity: sha512-cKZN7qcXOpj1h+1eTTcGDVLaBIHNMT1Rz9JqJP5MnEJ0JhgVWllx7H/tahUp5YEK1qaByH2Itb8wLG/iScD5kw==}
-    engines: {node: '>=23.5.0 || ^22.13.0 || ^21.7.0 || ^20.12.0'}
-    peerDependencies:
-      '@types/node': '>=18'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-
   '@inquirer/type@4.0.4':
     resolution: {integrity: sha512-PamArxO3cFJZoOzspzo6cxVlLeIftyBsZw/S9bKY5DzxqJVZgjoj1oP8d0rskKtp7sZxBycsoer1g6UeJV1BBA==}
     engines: {node: '>=23.5.0 || ^22.13.0 || ^21.7.0 || ^20.12.0'}
@@ -377,8 +368,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@listr2/prompt-adapter-inquirer@4.2.1':
-    resolution: {integrity: sha512-z3jVhDIz6/X5rPFAk8r00mOHTxpZljgOKNnrq6FLIoZUbXcPrcW3wfM7aUOxy4NXrUewTchcVZxgxHLZY3vN7Q==}
+  '@listr2/prompt-adapter-inquirer@4.2.2':
+    resolution: {integrity: sha512-QCVBPLxPEG3ZLSfGz8DfzgiqkLiK31sb4JTIxp+sfdOrpze5rjZscHSAuSI0e/engIS9tWgzifLhSCwlocFsZQ==}
     engines: {node: '>=22.13.0'}
     peerDependencies:
       '@inquirer/prompts': '>= 3 < 9'
@@ -2028,8 +2019,8 @@ packages:
       svelte:
         optional: true
 
-  svelte@5.53.13:
-    resolution: {integrity: sha512-9P6I/jGcQMzAMb76Uyd6L6RELAC7qt53GOSBLCke9lubh9iJjmjCo+EffRH4gOPnTB/x4RR2Tmt6s3o9ywQO3g==}
+  svelte@5.54.0:
+    resolution: {integrity: sha512-TTDxwYnHkova6Wsyj1PGt9TByuWqvMoeY1bQiuAf2DM/JeDSMw7FjRKzk8K/5mJ99vGOKhbCqTDpyAKwjp4igg==}
     engines: {node: '>=18'}
 
   through@2.3.8:
@@ -2309,10 +2300,10 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@cenk1cenk2/cz-cc@2.2.10(@types/node@25.4.0)(typescript@5.9.3)':
+  '@cenk1cenk2/cz-cc@2.2.11(@types/node@25.4.0)(typescript@5.9.3)':
     dependencies:
       '@inquirer/prompts': 8.3.2(@types/node@25.4.0)
-      '@listr2/prompt-adapter-inquirer': 4.2.1(@inquirer/prompts@8.3.2(@types/node@25.4.0))(@types/node@25.4.0)(listr2@10.2.1)
+      '@listr2/prompt-adapter-inquirer': 4.2.2(@inquirer/prompts@8.3.2(@types/node@25.4.0))(@types/node@25.4.0)(listr2@10.2.1)
       commitizen: 4.3.1(@types/node@25.4.0)(typescript@5.9.3)
       conventional-commit-types: 3.0.0
       find-git-root: 1.1.0
@@ -2522,10 +2513,6 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.4.0
 
-  '@inquirer/type@4.0.3(@types/node@25.4.0)':
-    optionalDependencies:
-      '@types/node': 25.4.0
-
   '@inquirer/type@4.0.4(@types/node@25.4.0)':
     optionalDependencies:
       '@types/node': 25.4.0
@@ -2549,10 +2536,10 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@listr2/prompt-adapter-inquirer@4.2.1(@inquirer/prompts@8.3.2(@types/node@25.4.0))(@types/node@25.4.0)(listr2@10.2.1)':
+  '@listr2/prompt-adapter-inquirer@4.2.2(@inquirer/prompts@8.3.2(@types/node@25.4.0))(@types/node@25.4.0)(listr2@10.2.1)':
     dependencies:
       '@inquirer/prompts': 8.3.2(@types/node@25.4.0)
-      '@inquirer/type': 4.0.3(@types/node@25.4.0)
+      '@inquirer/type': 4.0.4(@types/node@25.4.0)
       listr2: 10.2.1
     transitivePeerDependencies:
       - '@types/node'
@@ -3290,7 +3277,7 @@ snapshots:
       string.prototype.matchall: 4.0.12
       string.prototype.repeat: 1.0.0
 
-  eslint-plugin-svelte@3.15.2(eslint@10.0.3(jiti@2.6.1))(svelte@5.53.13):
+  eslint-plugin-svelte@3.15.2(eslint@10.0.3(jiti@2.6.1))(svelte@5.54.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.0.3(jiti@2.6.1))
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -3302,9 +3289,9 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.8)
       postcss-safe-parser: 7.0.1(postcss@8.5.8)
       semver: 7.7.4
-      svelte-eslint-parser: 1.6.0(svelte@5.53.13)
+      svelte-eslint-parser: 1.6.0(svelte@5.54.0)
     optionalDependencies:
-      svelte: 5.53.13
+      svelte: 5.54.0
     transitivePeerDependencies:
       - ts-node
 
@@ -4459,7 +4446,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-eslint-parser@1.6.0(svelte@5.53.13):
+  svelte-eslint-parser@1.6.0(svelte@5.54.0):
     dependencies:
       eslint-scope: 8.4.0
       eslint-visitor-keys: 4.2.1
@@ -4469,9 +4456,9 @@ snapshots:
       postcss-selector-parser: 7.1.1
       semver: 7.7.4
     optionalDependencies:
-      svelte: 5.53.13
+      svelte: 5.54.0
 
-  svelte@5.53.13:
+  svelte@5.54.0:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
