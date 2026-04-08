@@ -74,14 +74,14 @@
     "typescript-eslint": "^8.57.0"
   },
   "devDependencies": {
-    "@cenk1cenk2/cz-cc": "^2.2.12",
+    "@cenk1cenk2/cz-cc": "^2.2.13",
     "@vue/eslint-config-typescript": "^14.7.0",
     "eslint": "^10.2.0",
     "eslint-plugin-vue": "^10.8.0",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.1",
     "simple-git-hooks": "^2.13.1",
-    "svelte": "^5.55.1"
+    "svelte": "^5.55.2"
   },
   "config": {
     "commitizen": {
