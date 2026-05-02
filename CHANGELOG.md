@@ -1,3 +1,10 @@
+## [3.2.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.4...v3.2.5) (2026-05-02)
+
+
+### Bug Fixes
+
+* allow pascalcase enum mumber ([320e977](https://gitlab.kilic.dev/config/eslint-config/commit/320e977ed93b82415407645386a96e1a6ca343f2))
+
 ## [3.2.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.3...v3.2.4) (2026-05-02)
 
 
