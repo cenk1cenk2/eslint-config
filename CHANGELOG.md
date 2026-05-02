@@ -1,3 +1,10 @@
+## [3.2.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.3...v3.2.4) (2026-05-02)
+
+
+### Bug Fixes
+
+* update spaced comments ([feb2b50](https://gitlab.kilic.dev/config/eslint-config/commit/feb2b5085b7bf99cba5d67513ab4711f794e3dfb))
+
 ## [3.2.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.2...v3.2.3) (2026-04-10)
 
 
