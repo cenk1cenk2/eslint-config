@@ -116,7 +116,16 @@ export default [
       'one-var': ['error', 'never'],
       'stylistic/template-curly-spacing': ['error', 'never'],
       radix: 'error',
-      'stylistic/spaced-comment': 'error',
+      'stylistic/spaced-comment': [
+        'error',
+        'always',
+        {
+          line: { markers: ['/'], exceptions: ['-', '+', '/'] },
+          block: {
+            balanced: true, markers: ['*'], exceptions: ['*']
+          }
+        }
+      ],
       'use-isnan': 'error',
       'valid-typeof': 'warn',
       'stylistic/arrow-parens': ['error', 'always'],
