@@ -220,7 +220,7 @@ export default [
 
         {
           selector: 'enumMember',
-          format: ['UPPER_CASE', 'camelCase']
+          format: ['UPPER_CASE', 'camelCase', 'PascalCase']
         },
 
         {
