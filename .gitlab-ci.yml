@@ -1,7 +1,19 @@
+---
 stages:
   - publish
 
 include:
-  - project: devops/pipes
-    file: /templates/semantic-release.gitlab-ci.yml
-    ref: main
+  - project: devops/pipelines
+    ref: semantic-release@1.6.1
+    file:
+      - /semantic-release/publish.gitlab-ci.yml
+    inputs:
+      rules:
+        - if: '$CI_COMMIT_REF_NAME =~ /^(master|main|alpha|beta|rc|next)$/'
+          interruptible: true
+        - when: never
+
+semantic-release:
+  stage: publish
+  extends:
+    - .semantic-release
