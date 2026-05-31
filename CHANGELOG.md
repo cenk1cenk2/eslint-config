@@ -1,3 +1,10 @@
+## [3.2.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.5...v3.2.6) (2026-05-31)
+
+
+### Performance Improvements
+
+* **deps:** switch to eslint-plugin-import-x ([f58ac50](https://gitlab.kilic.dev/config/eslint-config/commit/f58ac500427ceeb3d218d4e9143c10a0eb6de59a))
+
 ## [3.2.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.4...v3.2.5) (2026-05-02)
 
 
