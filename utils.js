@@ -1,5 +1,5 @@
 import { loadTsConfig } from 'load-tsconfig'
-import ImportPlugin from 'eslint-plugin-import'
+import { importX as ImportPlugin } from 'eslint-plugin-import-x'
 
 /**
  * @param {{ paths?: string[], tsconfig?: string, tsconfigDir?: string}} options

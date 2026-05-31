@@ -1,4 +1,4 @@
-import ImportPlugin from 'eslint-plugin-import'
+import { importX as ImportPlugin } from 'eslint-plugin-import-x'
 import { EXTENSIONS } from './constants.js'
 
 /** @type {import("eslint").Linter.Config[]} */
