@@ -1,3 +1,10 @@
+# [3.3.0](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.6...v3.3.0) (2026-09-02)
+
+
+### Features
+
+* **ci:** publish packages via npm staged publishing ([6c6120d](https://gitlab.kilic.dev/config/eslint-config/commit/6c6120d428b968d797fe26dbc5ab13a9aed2e34d))
+
 ## [3.2.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.2.5...v3.2.6) (2026-05-31)
 
 
