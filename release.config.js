@@ -24,7 +24,14 @@ export default {
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    '@semantic-release/npm',
+    ['@semantic-release/npm', { npmPublish: false }],
+    [
+      '@semantic-release/exec',
+      {
+        publishCmd:
+          "npm stage publish ${nextRelease.channel ? \"--tag \" + nextRelease.channel : \"\"} > /dev/null && node -p \"JSON.stringify({ name: 'npm package', url: 'https://www.npmjs.com/package/' + require('./package.json').name + '/v/${nextRelease.version}', channel: '${nextRelease.channel || \"latest\"}' })\""
+      }
+    ],
     '@semantic-release/changelog',
     [
       '@semantic-release/git',
