@@ -46,8 +46,8 @@ importers:
         version: 8.57.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
     devDependencies:
       '@cenk1cenk2/cz-cc':
-        specifier: ^2.2.24
-        version: 2.2.24(@types/node@25.4.0)(typescript@5.9.3)
+        specifier: ^2.3.0
+        version: 2.3.0(@types/node@25.4.0)(typescript@5.9.3)
       '@vue/eslint-config-typescript':
         specifier: ^14.9.0
         version: 14.9.0(eslint-plugin-vue@10.10.0(@stylistic/eslint-plugin@5.10.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0)))(@typescript-eslint/parser@8.57.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(vue-eslint-parser@10.4.0(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)))(eslint@10.9.1(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
@@ -139,8 +139,8 @@ packages:
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
 
-  '@cenk1cenk2/cz-cc@2.2.24':
-    resolution: {integrity: sha512-cuAf9Z69cJzfsXL7hSULOx3Ss1Bx+2SfdWSDg6jRxIh7ifsFnSHymnE+GnBN6JK1OYqR44IbLEpHzUgLbYjvww==}
+  '@cenk1cenk2/cz-cc@2.3.0':
+    resolution: {integrity: sha512-k55NQ3z3h6mx5Oimeasu41Z4cJlTvoOcanMhMesD7pXlT9eOTyXJH3VIx4v7bw50uyXXLLcb/OZudzixY4vdOQ==}
     engines: {node: '>= 24'}
 
   '@commitlint/config-validator@20.4.3':
@@ -354,15 +354,6 @@ packages:
 
   '@inquirer/select@5.2.3':
     resolution: {integrity: sha512-KuRTodDa6xBXX2noIpjuitpX/QT7Sfav7dIZ/OfUY54Hxg95nrGoshSzxx6Ey7qqLbImKdiGkSDt7KjPXjQgmA==}
-    engines: {node: '>=23.5.0 || ^22.13.0 || ^20.17.0'}
-    peerDependencies:
-      '@types/node': '>=18'
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-
-  '@inquirer/type@4.0.7':
-    resolution: {integrity: sha512-t28inv14nMQ1PhKpsJPY+kEs/c00qzeCOS2gTNRyTjG5d6qsVA2fItxW4hkvGZ5lvanGLdtCzVIx5dwdRpN1+g==}
     engines: {node: '>=23.5.0 || ^22.13.0 || ^20.17.0'}
     peerDependencies:
       '@types/node': '>=18'
@@ -2364,10 +2355,6 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
-  wrap-ansi@10.0.0:
-    resolution: {integrity: sha512-SGcvg80f0wUy2/fXES19feHMz8E0JoXv2uNgHOu4Dgi2OrCy1lqwFYEJz1BLbDI0exjPMe/ZdzZ/YpGECBG/aQ==}
-    engines: {node: '>=20'}
-
   wrap-ansi@10.0.1:
     resolution: {integrity: sha512-M0N4xzyzosiIok3svYlEo1sdLZts/8FPgYH/GPC3wvlmPoRvnoManGMrE54waYj3tISA8w6lsdesfVv67qSr8Q==}
     engines: {node: '>=20'}
@@ -2517,7 +2504,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@cenk1cenk2/cz-cc@2.2.24(@types/node@25.4.0)(typescript@5.9.3)':
+  '@cenk1cenk2/cz-cc@2.3.0(@types/node@25.4.0)(typescript@5.9.3)':
     dependencies:
       '@inquirer/prompts': 8.7.0(@types/node@25.4.0)
       '@listr2/prompt-adapter-inquirer': 4.2.6(@inquirer/prompts@8.7.0(@types/node@25.4.0))(@types/node@25.4.0)(listr2@11.0.1)
@@ -2753,10 +2740,6 @@ snapshots:
     optionalDependencies:
       '@types/node': 25.4.0
 
-  '@inquirer/type@4.0.7(@types/node@25.4.0)':
-    optionalDependencies:
-      '@types/node': 25.4.0
-
   '@inquirer/type@4.1.0(@types/node@25.4.0)':
     optionalDependencies:
       '@types/node': 25.4.0
@@ -2783,7 +2766,7 @@ snapshots:
   '@listr2/prompt-adapter-inquirer@4.2.6(@inquirer/prompts@8.7.0(@types/node@25.4.0))(@types/node@25.4.0)(listr2@11.0.1)':
     dependencies:
       '@inquirer/prompts': 8.7.0(@types/node@25.4.0)
-      '@inquirer/type': 4.0.7(@types/node@25.4.0)
+      '@inquirer/type': 4.1.0(@types/node@25.4.0)
       listr2: 11.0.1
     transitivePeerDependencies:
       - '@types/node'
@@ -4326,7 +4309,7 @@ snapshots:
       slice-ansi: 9.0.0
       string-width: 8.2.0
       strip-ansi: 7.2.0
-      wrap-ansi: 10.0.0
+      wrap-ansi: 10.0.1
 
   longest@2.0.1: {}
 
@@ -5074,12 +5057,6 @@ snapshots:
       isexe: 2.0.0
 
   word-wrap@1.2.5: {}
-
-  wrap-ansi@10.0.0:
-    dependencies:
-      ansi-styles: 6.2.3
-      string-width: 8.2.0
-      strip-ansi: 7.2.0
 
   wrap-ansi@10.0.1:
     dependencies:
