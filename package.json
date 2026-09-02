@@ -7,6 +7,9 @@
   "author": "Cenk Kilic",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./index.js",
     "./svelte": "./svelte.js",
