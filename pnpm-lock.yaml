@@ -15,10 +15,10 @@ importers:
         specifier: ^5.10.0
         version: 5.10.0(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.57.0
+        specifier: ^8.68.0
         version: 8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       '@typescript-eslint/parser':
-        specifier: ^8.57.0
+        specifier: ^8.68.0
         version: 8.69.0(eslint@10.10.0(jiti@2.6.1)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
       eslint-plugin-import-x:
         specifier: ^4.17.1
@@ -2311,6 +2311,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.29.7
       js-tokens: 4.0.0
       picocolors: 1.1.1
+    optional: true
 
   '@babel/compat-data@7.29.7': {}
 
@@ -2370,7 +2371,8 @@ snapshots:
 
   '@babel/helper-string-parser@7.29.7': {}
 
-  '@babel/helper-validator-identifier@7.29.7': {}
+  '@babel/helper-validator-identifier@7.29.7':
+    optional: true
 
   '@babel/helper-validator-option@7.29.7': {}
 
@@ -4049,7 +4051,8 @@ snapshots:
   jiti@2.6.1:
     optional: true
 
-  js-tokens@4.0.0: {}
+  js-tokens@4.0.0:
+    optional: true
 
   js-yaml@4.3.2:
     dependencies:
@@ -4310,7 +4313,8 @@ snapshots:
 
   path-parse@1.0.7: {}
 
-  picocolors@1.1.1: {}
+  picocolors@1.1.1:
+    optional: true
 
   picomatch@2.3.2: {}
 
