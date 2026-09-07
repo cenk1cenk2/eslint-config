@@ -1,3 +1,10 @@
+## [3.3.3](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.2...v3.3.3) (2026-09-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript-eslint to ^8.69.0 ([df7eaae](https://gitlab.kilic.dev/config/eslint-config/commit/df7eaaea27888d07c6f38f1a4ffd2a85729fb510))
+
 ## [3.3.2](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.1...v3.3.2) (2026-09-06)
 
 
