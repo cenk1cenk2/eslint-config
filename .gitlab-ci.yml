@@ -4,7 +4,7 @@ stages:
 
 include:
   - project: devops/pipelines
-    ref: semantic-release@2.0.0
+    ref: semantic-release@2.0.1
     file:
       - /semantic-release/publish.gitlab-ci.yml
 
