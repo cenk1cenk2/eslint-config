@@ -1,3 +1,9 @@
+## [3.3.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.4...v3.3.5) (2026-09-13)
+
+### Bug Fixes
+
+* **deps:** update node slow ring ([99d845d](https://gitlab.kilic.dev/config/eslint-config/commit/99d845d0853acb4dce1a6d23137cbe3cb4de1a6c))
+
 ## [3.3.4](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.3...v3.3.4) (2026-09-08)
 
 
