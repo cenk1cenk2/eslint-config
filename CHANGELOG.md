@@ -1,3 +1,10 @@
+## [3.3.6](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.5...v3.3.6) (2026-09-20)
+
+### Bug Fixes
+
+* **deps:** update dependency typescript-eslint to ^8.70.0 ([7475b84](https://gitlab.kilic.dev/config/eslint-config/commit/7475b8480bb81e4786587671fe18d832b5d45763))
+* **deps:** update node slow ring ([5fbf920](https://gitlab.kilic.dev/config/eslint-config/commit/5fbf920c689ce503de9dbc39e5aa7828cf4dd237))
+
 ## [3.3.5](https://gitlab.kilic.dev/config/eslint-config/compare/v3.3.4...v3.3.5) (2026-09-13)
 
 ### Bug Fixes
