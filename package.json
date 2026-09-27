@@ -66,9 +66,9 @@
   "devDependencies": {
     "@cenk1cenk2/cz-cc": "^3.0.1",
     "@vue/eslint-config-typescript": "^14.9.0",
-    "eslint": "^10.10.0",
+    "eslint": "^10.11.0",
     "eslint-plugin-vue": "^10.11.0",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.8",
     "svelte": "^5.57.1"
   },
   "config": {
