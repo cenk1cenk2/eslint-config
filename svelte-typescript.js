@@ -27,5 +27,18 @@ export default [
     rules: {
       'max-len': 'off'
     }
+  },
+
+  {
+    name: 'cenk1cenk2/svelte/typescript/runes',
+    files: ['**/*.svelte.ts'],
+    languageOptions: {
+      parser: SvelteParser,
+      parserOptions: {
+        parser: TypescriptParser,
+        project: 'tsconfig.json',
+        extraFileExtensions: ['.svelte']
+      }
+    }
   }
 ]
