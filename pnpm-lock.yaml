@@ -219,7 +219,7 @@ importers:
         specifier: ^3.9.9
         version: 3.9.10
       svelte:
-        specifier: ^5.57.1
+        specifier: ^5.57.2
         version: 5.57.2(@typescript-eslint/types@8.71.1)
 
 packages:
