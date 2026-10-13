@@ -5,6 +5,8 @@ minimumReleaseAge: 1440
 
 minimumReleaseAgeExclude:
   - '@cenk1cenk2/*'
+  - '@listr2/*'
+  - listr2
 
 allowBuilds:
   unrs-resolver: true
