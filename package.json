@@ -64,7 +64,7 @@
     "typescript-eslint": "^8.71.1"
   },
   "devDependencies": {
-    "@cenk1cenk2/cz-cc": "^3.0.2",
+    "@cenk1cenk2/cz-cc": "^3.0.6",
     "@vue/eslint-config-typescript": "^14.9.0",
     "eslint": "^10.12.0",
     "eslint-plugin-vue": "^10.11.1",
